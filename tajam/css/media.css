@@ -1,0 +1,197 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.footer_nav li{
+		margin-right: 25px;
+	}
+	section,
+	footer{
+		padding: 6% 0;
+	}
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.portfolio_item{
+		width: 25%;
+	}
+	.nav>li>a{
+		padding: 10px;
+	}
+	.story_text h2{
+		text-align: center;
+	}
+	.portfolio_top{
+		margin-bottom: 40px;
+	}
+	.portfolio_bottom_link .button{
+		margin-top: 40px;
+	}
+	.carousel-control.right{
+		right: 20%;
+	}
+	.carousel-control.left{
+		left: 20%;
+	}
+	.review_icon{
+		line-height: 80px;
+	}
+	.review_text .name{
+		margin-top: 30px;
+	}
+	.client_item{
+		margin-bottom: 70px;
+	}
+	input, textarea{
+		padding: 15px;
+	}
+	.button_small{
+		padding: 14px 10px;
+	}
+	.social_links a{
+		margin-right: 23px;	
+		margin-bottom: 5px;
+	}
+	.footer_bottom{
+		margin-top: 40px;
+	}
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.navbar-nav{
+		float: none;
+		text-align: center;
+		background-color: rgba(48,35,95, .95);
+	}
+	.s_story{
+		text-align: center;
+	}
+	.video_bg{
+		min-height: 400px;
+	}
+	.service_item{
+		width: 60%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.team_worker{
+		margin-bottom: 20px;
+	}
+	.team_footer{
+		margin-top: 30px;
+	}
+	.portfolio_item{
+		width: 33.333333%
+	}
+	    
+   	.carousel-indicators{
+   		width: 64%;
+   	}
+    .carousel-control.left{
+    	left: 10%;
+    }
+    .carousel-control.right{
+    	right: 10%;
+    }
+    .s_order h2{
+    	text-align: center;
+    }
+    .news{
+    	text-align: center;
+    	margin-bottom: 60px;
+    }
+    .story_text h2{
+    	margin-top: 20px;
+    }
+    .s_order h2{
+    	margin-bottom: 50px;
+    }
+    textarea{
+    	height: 140px;
+    }
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.portfolio_item{
+		width: 100%;
+		background-color: #fff;
+	}
+	h1{
+		font-size: 24px;
+	}
+	.header_slogan_inner p{
+		margin-bottom: 30px;
+	}
+	.video_bg{
+		min-height: 320px;
+	}
+	.service_item{
+		width: 80%;
+	}
+	.portfolio_top .container >h2{
+		float: none;
+	}
+	.portfolio_top .container>a{
+		float: none;
+	}
+	.carousel-indicators li{
+		width: 30px;
+		height: 30px;
+	}
+	.carousel-indicators li.active{
+		width: 40px;
+		height: 40px;
+	}
+	input, textarea{
+		padding:10px;
+	}
+	.footer_top{
+		text-align: center;
+	}
+	.footer_bottom{
+		margin-top: 20px;
+	}
+	.footer_top .col-xs-6,
+	.footer_bottom .col-xs-6{
+		width: 100%;
+	}
+	footer h3{
+		text-align: center;
+	}
+	.footer-brand{
+		text-align: center;
+	}
+	p.professionХ{
+		margin-bottom: 10px;
+	}
+	p.name{
+		margin-bottom: 0;
+	}
+	.team_footer{
+		margin-top: 10px;
+	}
+	.worker_img{
+		margin-bottom: 10px;
+	}
+	.carousel-control{
+		bottom: 4px;
+	}
+	.adress,
+	.phone{
+		text-align: left;
+	}
+	.top.active{
+		display: none;
+	}
+	
+}
