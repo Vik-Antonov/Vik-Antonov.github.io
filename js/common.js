@@ -1,7 +1,7 @@
 $(function() {
 
 	$('#my-menu').mmenu({
-		extensions: ['closed', 'effect-menu-slide', 'pagedim-black'],
+		extensions: ['theme-black', 'closed', 'effect-menu-slide', 'pagedim-black'],
 		offCanvas: {
 			position: 'right'
 		},
@@ -17,6 +17,8 @@ $(function() {
 	}).bind('close:finish', function() {
 		$('.hamburger').removeClass('is-active');
 	});
+
+	$('.rezume-item').matchHeight();
 
 
 });
