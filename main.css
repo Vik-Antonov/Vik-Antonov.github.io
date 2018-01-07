@@ -149,6 +149,10 @@ ul, li{
 .mm-listview>li:hover>span.border-link{
 	padding: 0;
 }
+.mm-menu.mm-theme-black .mm-listview>li.mm-selected>a:not(.mm-next), 
+.mm-menu.mm-theme-black .mm-listview>li.mm-selected>span{
+	background-color: transparent;
+}
 
 /*-------------------portfolio-------------------*/
 .portfolio{
