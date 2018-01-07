@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="libs/jquery.mmenu/jquery.mmenu.all.css">
 	<link rel="stylesheet" href="libs/hamburgers-master/hamburgers-master/dist/hamburgers.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&amp;subset=cyrillic" rel="stylesheet">
-	<link href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="main.css">
 </head>
@@ -15,7 +15,7 @@
 	<div id="my-page">
 
 		<div id="my-header">
-			<header class="main-head" style="background-image: url(img/emile-perron-190221.jpg);">
+			<header class="main-head" style="background-image: url(img/emile-perron-190221.jpg);" id="main">
 				<div class="top-head clearfix">
 					<div class="container">
 						<div class="row">
@@ -23,7 +23,7 @@
 								<div class="logo-wrap">
 									<a href="https://vik-antonov.github.io/"><img src="img/logo-1.png" alt="logo"></a>
 								</div>
-								<div class="header-title">
+								<div class="header-title" id="par">
 									сайт портфолио
 								</div>
 								<div class="header-menu-btn">
@@ -35,10 +35,9 @@
 
 									<nav id="my-menu">
 										<ul>
-											<li><a href="#">Мои работы</a><span class="border-link"></span></li>
-											<li><a href="#">Резюме</a><span class="border-link"></span></li>
-											<li><a href="#">Обо мне</a><span class="border-link"></span></li>
-											<li><a href="#">Контакты</a><span class="border-link"></span></li>
+											<li><a href="#portfolio">Мои работы</a><span class="border-link"></span></li>
+											<li><a href="#rezume">Резюме</a><span class="border-link"></span></li>
+											<li><a href="#contacts">Контакты</a><span class="border-link"></span></li>
 										</ul>
 									</nav>
 								</div>
@@ -57,16 +56,16 @@
 		</div>
 
 		<div id="my-content">
-			<section class="portfolio light">
+			<section class="portfolio light" id="portfolio">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="0.5s" >Мои работы</h2>
+							<h2 >Мои работы</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInLeft" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="indor_media/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -79,7 +78,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInUp" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="dream_auto/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -92,7 +91,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInRight" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="tajam/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -105,7 +104,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInLeft" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="dream_auto/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -118,7 +117,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInUp" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="tajam/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -131,7 +130,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<div class="port-item">
+							<div class="port-item wow fadeInRight" data-wow-offset="100" data-wow-duration="1.5s">
 								<a href="indor_media/index.html" target="_blank" class="port-link">
 									<div class="caption">
 										<div class="caption-content">
@@ -147,7 +146,7 @@
 				</div>
 			</section>
 
-			<section class="rezume dark">
+			<section class="rezume dark" id="rezume">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -159,13 +158,13 @@
 								<div class="rezume-icon">
 									<i class="glyphicon glyphicon-education"></i>
 								</div>
-								<div class="rezume-item">
+								<div class="rezume-item wow fadeInLeft" data-wow-delay="0">
 									<div class="item-info">
 										Высшее
 									</div>
 									<p class="rezume-item-text">Донецкий национальный технический университет (ДонНТУ), факультет радиотехники и специальной подготовки (ФРТСП), специальность "Инженер по технической защите информации и автомаизации ее обработки". Квалификация - специалист.</p>
 								</div>
-								<div class="rezume-item">
+								<div class="rezume-item wow fadeInLeft" data-wow-delay="0.2s">
 									<div class="item-info">
 										Самообразование
 									</div>
@@ -178,13 +177,13 @@
 								<div class="rezume-icon">
 									<i class="glyphicon glyphicon-briefcase"></i>
 								</div>
-								<div class="rezume-item">
+								<div class="rezume-item wow fadeInRight" data-wow-delay="0"">
 									<div class="item-info">
 										Знания в области Web
 									</div>
 									<p class="rezume-item-text">Языки программирования: PHP, JavaScript. Язык разметки HTML(5), таблицы стилей CSS(3), sass, язык запросов SQL? адаптивная верстка под мобильные устройства, фреймворк Bootstrap. </p>
 								</div>
-								<div class="rezume-item">
+								<div class="rezume-item wow fadeInRight" data-wow-delay="0.2s"">
 									<div class="item-info">
 										Инструменты
 									</div>
@@ -197,7 +196,7 @@
 				</div>
 			</section>
 
-			<section class="contacts blue">
+			<section class="contacts blue" id="contacts">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -207,7 +206,7 @@
 					<div class="contacts_wrap">
 						<div class="row">
 							<div class="col-md-3">
-								<div class="contact-item">
+								<div class="contact-item wow fadeIn" data-wow-delay="0">
 									<div class="contact-icon">
 										<i class="fab fa-vk fa-2x" style="color: #FF6347"></i>
 									</div>
@@ -220,7 +219,7 @@
 								</div>	
 							</div>
 							<div class="col-md-3">
-								<div class="contact-item">
+								<div class="contact-item wow fadeIn" data-wow-delay="0.3s">
 									<div class="contact-icon">
 										<i class="far fa-clock fa-2x" style="color: #FF6347"></i>
 									</div>
@@ -234,7 +233,7 @@
 								</div>	
 							</div>
 							<div class="col-md-3">
-								<div class="contact-item">
+								<div class="contact-item wow fadeIn" data-wow-delay="0.6s">
 									<div class="contact-icon">
 										<i class="fas fa-mobile fa-2x" style="color: #FF6347"></i>
 									</div>
@@ -248,7 +247,7 @@
 								</div>	
 							</div>	
 							<div class="col-md-3">
-								<div class="contact-item">
+								<div class="contact-item wow fadeIn" data-wow-delay="1s">
 									<div class="contact-icon">
 										<i class="far fa-envelope fa-2x" style="color: #FF6347"></i>
 									</div>
@@ -279,10 +278,10 @@
 							<div class="col-md-9">
 								<nav class="nav-bottom">
 									<ul class="clearfix">
-										<li><a href="#">Главная</a><span class="border-link"></span></li>
-										<li><a href="#">Мои работы</a><span class="border-link"></span></li>
-										<li><a href="#">Резюме</a><span class="border-link"></span></li>
-										<li><a href="#">Контакты</a><span class="border-link"></span></li>
+										<li><a href="#main">Главная</a><span class="border-link"></span></li>
+										<li><a href="#portfolio">Мои работы</a><span class="border-link"></span></li>
+										<li><a href="#rezume">Резюме</a><span class="border-link"></span></li>
+										<li><a href="#contacts">Контакты</a><span class="border-link"></span></li>
 									</ul>
 								</nav>
 							</div>
@@ -300,6 +299,8 @@
 	<script src="libs/jquery.mmenu/jquery.mmenu.all.js"></script>
 	<script src="fonts/fontawesome-free-5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
 	<script src="libs/WOW-master/dist/wow.min.js"></script>
+	<script src="libs/paroller/jquery.paroller.min.js"></script>
+	<script src="libs/page-scroll-to-id-master/jquery.malihu.PageScroll2id.js"></script>
 
 	<script src="js/common.js"></script>
 

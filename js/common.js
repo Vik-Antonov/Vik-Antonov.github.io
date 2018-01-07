@@ -19,6 +19,17 @@ $(function() {
 	});
 
 
-	 new WOW().init();
+	new WOW().init();
+
+	$(window).scroll(function(){
+		var st = $(this).scrollTop();
+
+		$(".header-text-wrap").css({
+			"transform" : "translate(0%, " + st * 0.4 + "px"
+		});
+	});
+
+	$("a[href*='#portfolio'], a[href*='#rezume'], a[href*='#contacts'], a[href*='#main']").mPageScroll2id();
+
 });
 
