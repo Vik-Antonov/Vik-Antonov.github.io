@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/jquery.mmenu/jquery.mmenu.all.css">
 	<link rel="stylesheet" href="libs/hamburgers-master/hamburgers-master/dist/hamburgers.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&amp;subset=cyrillic" rel="stylesheet">
+	<link href="libs/animate/animate.css">
+	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -18,7 +21,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="logo-wrap">
-									<img src="img/logo.png" alt="logo">
+									<a href="https://vik-antonov.github.io/"><img src="img/logo-1.png" alt="logo"></a>
 								</div>
 								<div class="header-title">
 									сайт портфолио
@@ -32,10 +35,10 @@
 
 									<nav id="my-menu">
 										<ul>
-											<li><a href="#">Мои работы</a></li>
-											<li><a href="#">Резюме</a></li>
-											<li><a href="#">Обо мне</a></li>
-											<li><a href="#">Контакты</a></li>
+											<li><a href="#">Мои работы</a><span class="border-link"></span></li>
+											<li><a href="#">Резюме</a><span class="border-link"></span></li>
+											<li><a href="#">Обо мне</a><span class="border-link"></span></li>
+											<li><a href="#">Контакты</a><span class="border-link"></span></li>
 										</ul>
 									</nav>
 								</div>
@@ -54,11 +57,11 @@
 		</div>
 
 		<div id="my-content">
-			<section class="portfolio blue">
+			<section class="portfolio light">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Мои работы</h2>
+							<h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-offset="200" data-wow-delay="0.5s" >Мои работы</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -201,18 +204,59 @@
 							<h2>Как со мной связаться</h2>
 						</div>
 					</div>
-					<div class="row">
-						<div class="contacts_wrap">
+					<div class="contacts_wrap">
+						<div class="row">
 							<div class="col-md-3">
 								<div class="contact-item">
 									<div class="contact-icon">
-										
+										<i class="fab fa-vk fa-2x" style="color: #FF6347"></i>
 									</div>
 									<div class="contact-title">
-										Вконтакте
+										<strong>Вконтакте</strong>
 									</div>
 									<div class="contact-desc">
-										
+										<a href="https://vk.com/svadbaindonetsk">https://vk.com/svadbaindonetsk</a>
+									</div>
+								</div>	
+							</div>
+							<div class="col-md-3">
+								<div class="contact-item">
+									<div class="contact-icon">
+										<i class="far fa-clock fa-2x" style="color: #FF6347"></i>
+									</div>
+									<div class="contact-title">
+										<strong>Время</strong>
+									</div>
+									<div class="contact-desc">
+										<span>Ежедневно</span> <br>
+										<span>с 9:00 до 21:00</span>
+									</div>
+								</div>	
+							</div>
+							<div class="col-md-3">
+								<div class="contact-item">
+									<div class="contact-icon">
+										<i class="fas fa-mobile fa-2x" style="color: #FF6347"></i>
+									</div>
+									<div class="contact-title">
+										<strong>Телефон</strong>
+									</div>
+									<div class="contact-desc">
+										<span>+3(050)-999-21-10</span><br>
+										<span>(Viber, Whatsapp, Telegram)</span>
+									</div>
+								</div>	
+							</div>	
+							<div class="col-md-3">
+								<div class="contact-item">
+									<div class="contact-icon">
+										<i class="far fa-envelope fa-2x" style="color: #FF6347"></i>
+									</div>
+									<div class="contact-title">
+										<strong>Почта</strong>
+									</div>
+									<div class="contact-desc">
+										<a href="mailto:changer_5@bk.ru">changer_5@bk.ru</a>
 									</div>
 								</div>	
 							</div>
@@ -222,15 +266,43 @@
 			</section>
 		</div>
 		
-		<div id="my-footer"></div>
+		<div id="my-footer">
+			<footer class="dark">
+				<div class="footer-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="logo-wrap">
+									<a href="https://vik-antonov.github.io/"><img src="img/logo-1.png" alt=""></a>
+								</div>
+							</div>
+							<div class="col-md-9">
+								<nav class="nav-bottom">
+									<ul class="clearfix">
+										<li><a href="#">Главная</a><span class="border-link"></span></li>
+										<li><a href="#">Мои работы</a><span class="border-link"></span></li>
+										<li><a href="#">Резюме</a><span class="border-link"></span></li>
+										<li><a href="#">Контакты</a><span class="border-link"></span></li>
+									</ul>
+								</nav>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 	</div>
 	
 
 	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
 	<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script src="libs/jquery.mmenu/jquery.mmenu.all.js"></script>
+	<script src="fonts/fontawesome-free-5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
+	<script src="libs/WOW-master/dist/wow.min.js"></script>
+
 	<script src="js/common.js"></script>
 
-	
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

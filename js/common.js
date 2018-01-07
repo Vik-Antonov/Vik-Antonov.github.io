@@ -18,8 +18,7 @@ $(function() {
 		$('.hamburger').removeClass('is-active');
 	});
 
-	$('.rezume-item').matchHeight();
 
-
+	 new WOW().init();
 });
 

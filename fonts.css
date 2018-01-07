@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "glyphicons-halflings-regular";
+	src: url("fonts/Glyphicons/glyphicons-halflings-regular.eot");
+	src: url("fonts/Glyphicons/glyphicons-halflings-regular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/Glyphicons/glyphicons-halflings-regular.woff") format("woff"),
+	url("fonts/Glyphicons/glyphicons-halflings-regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
