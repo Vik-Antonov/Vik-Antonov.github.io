@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "HelveticaNeue-Bold";
+	src: url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot");
+	src: url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff") format("woff"),
+			 url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Helvetica-CE-Regular";
+	src: url("../fonts/Helvetica-CE-Regular/Helvetica-CE-Regular.eot");
+	src: url("../fonts/Helvetica-CE-Regular/Helvetica-CE-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Helvetica-CE-Regular/Helvetica-CE-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("../fonts/HelveticaNeue/HelveticaNeue.eot");
+	src: url("../fonts/HelveticaNeue/HelveticaNeue.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/HelveticaNeue/HelveticaNeue.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Impact-Regular";
+	src: url("../fonts/Impact-Regular/Impact-Regular.eot");
+	src: url("../fonts/Impact-Regular/Impact-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Impact-Regular/Impact-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "JosefinSlab-Regular";
+	src: url("../fonts/JosefinSlab-Regular/JosefinSlab-Regular.eot");
+	src: url("../fonts/JosefinSlab-Regular/JosefinSlab-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/JosefinSlab-Regular/JosefinSlab-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

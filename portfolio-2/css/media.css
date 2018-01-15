@@ -1,0 +1,336 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.sect_wrap{
+		padding:80px 0;
+	}
+	h1{
+		font-size: 52px;
+	}
+	.header_bottom{
+		padding: 60px 0 0;
+	}
+	.tizer_border{
+		padding-bottom: 80px;
+	}
+	.product_img img{
+		height: 240px;
+	}
+	.subscribe_bg{
+		padding: 120px 0 100px;
+	}
+	.message input[name="name"]{
+		margin-right: 49px;
+	}
+	.message_top{
+		text-align: center;
+	}
+	.message_top h2,
+	.message_top p{
+		margin-bottom: 40px;
+	}
+	.red_line{
+		margin-bottom: 60px;
+	}
+	.product_nav ul li a{
+		font-size: 19px;
+		padding: 5px 15px;
+	}
+	.team{
+		text-align: center;
+	}
+	
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header_video_wrap{
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.sect_wrap{
+		padding: 70px 0;
+	}
+	.header_bottom h1{
+		text-align: center;
+	}
+	.header_bottom{
+		padding: 40px 0 0;
+		text-align: center;
+	}
+	.header_bottom p{
+		margin-bottom: 40px;
+	}
+	.btn_red, .btn_red:hover, .btn_red:focus{
+		margin-bottom: 80px;
+	}
+	.header_video_wrap video{
+		max-height: 460px;
+	}
+	.header_video_wrap{
+		padding-bottom: 60px;
+	}
+	.tizers h2{
+		text-align: center;
+		font-size: 36px;
+		line-height: 46px;
+		margin-bottom: 40px;
+	}
+	.tizers p.learn{
+		margin-bottom: 40px;
+	}
+	.tizer_border{
+		text-align: center;
+	}
+	.tizer_top{
+		margin-bottom: 40px;
+	}
+	.tizer_border{
+		padding-bottom: 60px;
+	}
+	.tizer_item{
+		margin-bottom: 20px;
+	}
+	.red_line{
+		margin-bottom: 50px;
+	}
+	.product_nav ul li a{
+		font-size: 19px;
+		padding: 5px 15px;
+	}
+	.product_img img{
+		height: 280px;
+	}
+	.subscribe input{
+		padding: 20px;
+	}
+	.subscribe .btn-big,
+	.message .btn_large{
+		padding:20px 60px;
+	}
+	.message .contact_info{
+		position: relative;
+		width: 100%;
+		margin-top: 40px;
+		text-align: center;
+		padding: 60px;
+	}
+	.message input[name="name"]{
+		margin-bottom: 0;
+	}
+	.message input,
+	.message textarea{
+		padding:16px 30px;
+		margin-bottom: 30px;
+		padding-right: 130px;
+		float: right;
+	}
+	.message input{
+		width: 48%;
+	}
+	.message textarea{
+		max-height: 180px;
+	}
+	.message input[name="name"]{
+		float: left;
+	}
+	.contact_info p{
+		line-height: 36px;
+	}
+	.message .sect_wrap{
+		padding-bottom: 0;
+	}
+	.team_bottom .team_main_img{
+		width: 45%;
+		height: 360px;
+		margin-left: 0;
+		float: none;
+		margin:0 auto;
+	}
+	.team_bottom .team_other{
+		float: none;
+		padding-left: 0;
+		width: 100%;
+	}
+	.team_bottom .team_other .team_other_text h3{
+		margin-top: 10px;
+	}
+	.team_other_img{
+		margin-top: 0;
+	}
+	.team_top h2{
+		margin-bottom: 25px;
+	}
+	.header_video_wrap{
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.header_video_wrap img{
+		margin-left: -35px;
+	}
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	h1{
+		font-size: 42px;
+		line-height: 54px;
+	}
+	.navbar-nav{
+		width: 100%;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 20px 25px;
+	}
+	.tizers h2,
+	.products h2,
+	.subscribe h2,
+	.team h2{
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.sect_wrap{
+		padding: 50px 0;
+	}
+	.tizer_item,
+	.tizer_item:last-child{
+		margin-bottom: 0;
+		width: 60%;
+		margin: 0 auto;
+	}
+	.tizer_img img{
+		margin-bottom: 15px;
+	}
+	.product_nav ul li{
+		display: block;
+	}
+	.product_nav{
+		margin-bottom: 0;
+	}
+	.product_img img{
+		max-height: 210px;
+	}
+	.subscribe input{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.subscribe_bg{
+		padding: 80px 0;
+	}
+	.subscribe h2{
+		margin-bottom: 20px;
+	}
+	.message input[name="name"]{
+		margin-right: 0;
+	}
+	.message input,
+	.message textarea{
+		padding-right: 0;
+		padding-left: 10px;
+	}
+	.message .contact_info{
+		padding: 40px;
+		line-height: 30px;
+	}
+	.contact_info h5{
+		margin-bottom: 25px;
+	}
+	.copyright,
+	.social_icons{
+		float: none;
+	}
+	.copyright{
+		margin-bottom: 20px;
+	}
+	.footer_bg{
+		text-align: center;
+	}
+	.team_bottom .team_main_img{
+		width: 48%;
+		height: 300px;
+	}
+	.team_other_img a{
+		margin-right: 0;
+		height: 120px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h1{
+		font-size: 34px;
+		line-height: 45px;
+	}
+	.tizers h2,
+	.products h2,
+	.subscribe h2,
+	.team h2{
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.navbar-nav{
+		width: 100%;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 20px 25px;
+	}
+	.btn_red{
+		margin-bottom: 60px;
+	}
+	.header_video_wrap video{
+		max-height: 260px;
+	}
+	.tizer_border{
+		padding-bottom: 40px;
+	}
+	.tizer_item,
+	.tizer_item:last-child{
+		width: 90%;
+	}
+	.products .full_screen{
+		width: 100%;
+	}
+	.product_img img{
+		max-height: 300px;
+	}
+	.subscribe input{
+		padding: 15px;
+	}
+	.subscribe .btn-big, .message .btn_large{
+		padding: 15px 60px;
+	}
+	.message input{
+		margin-bottom: 20px;
+	}
+	.message textarea{
+		margin-bottom: 10px;
+	}
+	.message .contact_info{
+		padding: 30px;
+	}
+	.message p{
+		line-height: 28px;
+	}
+	.footer_bg{
+		padding: 30px 0;
+	}
+	.team_bottom .team_main_img{
+		width: 50%;
+		height: 240px;
+	}
+	.team h3{
+		font-size: 24px;
+	}
+	.team_other_img a{
+		width: auto;
+		margin-bottom: 5px;
+	}
+
+}

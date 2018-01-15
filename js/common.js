@@ -25,7 +25,7 @@ $(function() {
 		var st = $(this).scrollTop();
 
 		$(".header-text-wrap").css({
-			"transform" : "translate(0%, " + st * 0.4 + "px"
+			"transform" : "translate(0%, " + st * 0.25 + "px"
 		});
 	});
 
@@ -33,3 +33,6 @@ $(function() {
 
 });
 
+	$(window).on('load', function(){
+		$('.preloader').delay(100).fadeOut('slow');
+	});
