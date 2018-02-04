@@ -49,6 +49,7 @@ $(document).ready(function() {
 	});
 
 	$('.mc_item').matchHeight();
+	$('.hi_item').matchHeight();
 
 	// $('.navbar-header .m-hamburger').toggleClass('is-active');
 
