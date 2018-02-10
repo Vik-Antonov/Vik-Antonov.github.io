@@ -8,6 +8,9 @@ $(document).ready(function(){
   $('.category-item').equalHeights();
   $('.equalHeight').equalHeights();
   $('.equal').equalHeights();
+  $('.boutique-height').equalHeights();
+  
+
 });
    
 
