@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<title>О нас</title>
+	<title>Категории товаров</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700i|Oswald&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
 
 </head>
-<body class="isAbout">
+<body class="isCategory">
 
 
 	<header class="header">
@@ -365,171 +365,383 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>
-
 	</header>
 
-	<div class="wrapper">
+	<section class="banner">
 		<div class="container">
-			<!-- <div class="row"> -->
-				<section class="introduce clearfix">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="brands__title">
-								<h1 class="h1">About Us</h1>
-								<div class="divider"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="introduce-description">
-								<p>
-									Alexander's Uniforms is a family owned and operated uniform company. In business since 1945, our three retail locations offer Southeastern New England's largest in store selections.  Our on-site sales program works with hospitals, nursing homes, and medical office buildings from Maine through Pennsylvania. 
-								</p>
-								<p>
-									Our staff has over 100 years of combined experience, allowing us to outfit you, your business, or school in any healthcare, hospitality, chefwear, industrial, restaurant or professional apparel. 
-								</p>
-								<p  class="merit">Let decades of customer satisfaction work for you and call us toll free 
-								for any of your uniform needs.</p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="inroduce-placeholder">
-								<div class="introduce-placeholder-wrap">
-									<img src="img/team.jpg" alt="">
-								</div>
-							</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="banner-wrap" style="background-image: url(img/banner-bg.png);">
+						<div class="banner-title">
+							<h1 class="h1">Category Name Lorem Ipsum</h1>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="page-navigation">
+		<div class="container">
+			<div class="page-navigation__head clearfix">
+				<div class="page-navigation__breadcrumb">
+					<ol class="breadcrumb">
+						<li><a href="#">shop</a></li>
+						<li><a href="#">women</a></li>
+						<li><a href="#">uniforms</a></li>
+						<li class="active"><a href="#">koi</a></li>
+					</ol>
+				</div>
+				<div class="page-navigation__pagination">
+					<nav class="page-navigation__nav" aria-label="Page navigation">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<img src="img/icons/triangle-left.png" aria-hidden="true"/>
+								</a>
+							</li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<img src="img/icons/triangle-right.png" aria-hidden="true"/>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="page-navigation__filter">
+					<span class="page-navigation__sort">Sort by</span>
+					<a class="toggle-link collapsed" data-toggle="collapse" href="#collaps">Name</a>
+					<ul id="collaps" class="collapse toggle-list">
+						<li><a href="#">by Price</a></li>
+						<li><a href="#">by Name</a></li>
+					</ul> 
+					<a href="#" class="view-link">View all</a>
+				</div>
+				
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="wrapper">
+		<div class="container">
+
+			<div class="flex-wrap">
+				<aside class="sidebar">
+					<!-- <div class="col-md-3 padding-0"> -->
+						<h3 class="h3">Shop By:</h3>
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseOne">Department</a>
+							<ul id="collapseOne" class="collapse toggle-list in">
+								<li><a href="#">Women's</a></li>
+								<li><a href="#">Men's</a></li>
+								<li><a href="#">Unisex</a></li>
+							</ul> 
+						</div>	
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseTwo">Caregory</a>
+							<ul id="collapseTwo" class="collapse toggle-list in">
+								<li><a href="#">Scrub Tops</a></li>
+								<li><a href="#">Solids</a></li>
+								<li><a href="#">Prints</a></li>
+								<li><a href="#">Scrub Bottoms</a></li>
+								<li><a href="#">Scrub Jackets</a></li>
+								<li><a href="#">LabCoats</a></li>
+								<li><a href="#">Medical Supplies</a></li>
+								<li><a href="#">Accesories</a></li>
+							</ul> 
+						</div>	
+
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseFour">Color Brand</a>
+							<ul id="collapseFour" class="collapse toggle-list in">
+								<li>
+									<input type="checkbox" id="sidebar-checkbox1" name="color1" value="1">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox1">Amethyst</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox2" name="color2" value="2">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox2">Black</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox3" name="color3" value="3">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox3">Ciel</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox4" name="color" value="4">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox4">Empire purle</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox5" name="color" value="5">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox5">Indigo</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox6" name="color" value="6">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox6">New royal</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox7" name="color" value="7">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox7">Nickel</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox8" name="color" value="8">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox8">Radiance</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox9" name="color" value="9">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox9">Steel</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox10" name="color" value="10">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox10">Twilight</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox11" name="color" value="11">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox11">Viridian</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox12" name="color" value="12">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox12">Watermelon</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox13" name="color" value="13">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox13">White</label>
+								</li>
+								<li>
+									<input type="checkbox" id="sidebar-checkbox" name="color14" value="14">
+									<label class="sidebar-item__checkbox" for="sidebar-checkbox14">Wine</label>
+								</li> 
+								
+							</ul> 
+						</div>	
+
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseThree">Size</a>
+							<ul id="collapseThree" class="collapse toggle-list in">
+								<li>
+									<a class="sidebar__title-link" href="#">Regular</a>
+									<p class="sidebar__title-body">XXS XS S M L XL</p>
+									<p class="sidebar__title-body">2XL 3XL 4XL 5XL</p>
+								</li>
+								<li>
+									<a class="sidebar__title-link" href="#">Petites</a>
+									<p class="sidebar__title-body">XXS XS S M L XL</p>
+									<p class="sidebar__title-body">2XL 3XL 4XL 5XL</p>
+									</a></li>
+								<li>
+									<a class="sidebar__title-link" href="#">Talls</a>
+									<p class="sidebar__title-body">XXS XS S M L XL</p>
+									<p class="sidebar__title-body">2XL 3XL 4XL 5XL</p>
+								</li>
+							</ul> 
+						</div>	
+
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseFive">Price Range</a>
+							<ul id="collapseFive" class="collapse toggle-list in">
+								<li><a href="#">Under $10</a></li>
+								<li><a href="#">$10 - $20</a></li>
+								<li><a href="#">$20 - $25</a></li>
+								<li><a href="#">$25 - $35</a></li>
+								<li><a href="#">Over $35</a></li>
+							</ul> 
+						</div>	
+		
+					
+
+						<div class="sidebar-item">
+							<a class="toggle-link" data-toggle="collapse" href="#collapseSix">Shop By Brand</a>
+							<ul id="collapseSix" class="collapse toggle-list in">
+								<li><a href="#">Meta</a></li>
+								<li><a href="#">Hearssoul</a></li>
+								<li><a href="#">Alegria</a></li>
+							</ul> 
+						</div>	
+						
+					<!-- </div> -->
+				</aside>
+
+				<section class="products">
+					<div class="products-wrap">
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-1.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-2.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-3.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-4.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-5.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-6.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-7.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-8.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-3.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-4.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-5.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+						<a href='detail.html' class="product-item">
+							<div class="product-item__img-wrap">
+								<img src="img/category/card-6.png" alt="product-img">
+							</div>
+							<div class="product-item__description">
+								<span class="product-name">Lorem ipsum Product name</span>
+								<span class="product-price">$39.00</span>
+							</div>
+						</a>
+
+					</div>	
 				</section>
 
-				<section class="stores">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="brands__title">
-								<h3 class="h3">Retail Stores</h3>
-								<div class="divider"></div>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="stores-flex">
-								<div class="stores-item item-1">
-									<p class="stores-name">
-										Marshalls Plaza (Rt.5)
-									</p>
-									<p>One Lambert Lind Highway </p>
-									<p>Warwick, RI 02886</p>
-									<p>401.654.6500</p>
-									
-									<p class="stores-time-title">Hours</p>
-									<p class="stores-time">Monday-Thursday 9:30-8 </p>
-									<p class="stores-time">Friday 9:30-5:30 </p>
-									<p class="stores-time">Saturday 9:30-5</p>
-									<p class="stores-time">Sunday 12-5 (Closed on Sundays in July and August)</p>
-								</p>
-								<a href="#" class="stores-directions">Get directions ></a>
-							</div> <!--item-->
-
-							<div class="stores-item item-2">
-								<p class="stores-name">
-									77 Salem Turnpike
-								</p>
-								<p>Norwich, CT 06360 </p>
-								<p>860.889.7744</p>
-								<p class="stores-time-title">Hours</p>
-								<p class="stores-time">Monday, Tuesday, Friday 10-5:30 </p>
-								<p class="stores-time">Wednesday & Thursday 10-8</p>
-								<p class="stores-time">Saturday 10-5</p>
-								<a href="#" class="stores-directions">Get directions ></a>
-							</div> <!--item-->
-
-							<div class="stores-item item-3">
-								<p class="stores-name">
-									500 Providence Highway
-								</p>
-								<p>Norwood, MA 02062</p> 
-								<p>781.762.1449</p>
-				
-								<p class="stores-time-title">Hours</p>
-								<p class="stores-time">Monday, Tuesday, Friday 10-5:30 </p>
-								<p class="stores-time">Wednesday & Thursday 10-8</p>
-								<p class="stores-time">Saturday 10-5</p>
-								<p class="stores-time">Sunday 12-5 (Closed on Sundays in July and August)</p>
-								<a href="#" class="stores-directions">Get directions ></a>
-							</div> <!--item-->
-
-						</div> <!--flex-->
-					</div><!--col-md-->
-				</div><!--row-->
-			</section>
-
-			<section class="boutique-boutique_contact">
-				<div class="row">
-					<div class="bountique">
-						<div class="col-md-6">
-							<div class="brands__title">
-								<h3 class="h3">Alexander's Shoes Boutique</h3>
-								<div class="divider"></div>
-							</div>
-
-							<div class="boutique-height">
-								<div class="stores-item">
-									<p class="stores-name">
-										Garden City Center
-									</p>
-									<p>55 Hillside Road</p> 
-									<p>Cranston, RI 02920</p>
-									<p>401.305.5596</p>
-									<p class="stores-time-title">Hours</p>
-									<p class="stores-time">Monday-Saturday 10-9 </p>
-									<p class="stores-time">Sunday 12-6</p>
-									<a href="#" class="stores-directions">Get directions ></a>
-								</div> <!--item-->
-							</div>								
-
-						</div>
-					</div>
-					<div class="boutique_contact">
-						<div class="col-md-6">
-							<div class="brands__title">
-								<h3 class="h3">Contact Us</h3>
-								<div class="divider"></div>
-							</div>
-							<div class="boutique-height">
-								<div class="boutique_contact-item">
-									<p class="boutique-info">By email: <br>
-										<span>info@alexandersuniforms.com</span>
-									</p>
-									<p class="boutique-info">
-										By phone: <br>
-										<span class="boutique-phone">866-597-9875</span>
-									</p>
-								</div>
-								<div class="boutique_contact-item">
-									<p class="boutique-info">
-										By standart mail: 
-									</p>
-									<p class="boutique-mail">
-										<span>Alexander's Uniforms</span> <br>
-										<span>999 Pontiac Avenue</span> <br>
-										<span>Cranston, RI 02920</span>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>		
-				</div>
-			</section>
-
-
-
+			</div>
 		</div>
-		<section class="contacts">
+	</section>
+
+	<section class="page-navigation-bottom">
+		<div class="container">
+			<div class="page-navigation__head clearfix navigation-bottom">
+							
+				<div class="page-navigation__filter">
+					<a href="#" class="view-link">View all</a>
+				</div>
+				
+				<div class="page-navigation__pagination">
+					<nav class="page-navigation__nav" aria-label="Page navigation">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<img src="img/icons/triangle-left.png" aria-hidden="true">
+								</a>
+							</li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<img src="img/icons/triangle-right.png" aria-hidden="true">
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+		
+	</section>
+
+
+
+	<section class="contacts">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<div class="contacts-email equal">
 						<h4 class="h4">Let's keep <br>In Touch</h4>
 						<label class="email-label" for="footer-input">Sing up for saving & style news</label>
 						<input class="footer-input" id='footer-input' type="text" placeholder="Enter Your Email">
-
+						
 						<a href="#" class="button email-btn">Subscribe</a>
 					</div>
 				</div>
@@ -557,8 +769,8 @@
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 
 	<footer class="footer">
 		<div class="container">
@@ -566,12 +778,12 @@
 				<div class="col-md-12">
 					<nav class="footer-nav">
 						<ul class="footer-list">
-							<li><a href="">Privacy Policy</a></li>
-							<li><a href="">Terms and Conditions</a></li>
-							<li><a href="">About us</a></li>
-							<li><a href="">Contact us</a></li>
-							<li><a href="">lorem ipsun</a></li>
-							<li><a href="">Dolor sit amet</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms and Conditions</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="contacts.html">Contact us</a></li>
+							<li><a href="#">lorem ipsun</a></li>
+							<li><a href="#">Dolor sit amet</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -584,6 +796,8 @@
 <script src="libs/OwlCarousel2/owl.carousel.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="libs/selecter/modernizr-custom.js"></script>
+<script src="libs/selecter/selecter.js"></script>
 <script src="libs/equalHeights/jquery.equalheights.js"></script>
 <script src="js/common.js"></script>
 
