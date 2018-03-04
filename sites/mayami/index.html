@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title></title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="libs/jquery-ui/jquery-ui.theme.min.css" />
+	<link rel="stylesheet" type="text/css" href="libs/jquery-ui/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container">
+			<div class="flex between align nowrap">
+				<div class="flex__col lang">
+					<ul class="lang__list">
+						<li class="lang__item"><a href="index.html" class="lang__link">Рус</a></li>
+						<li class="lang__item"><a href="#" class="lang__link">Укр</a></li>
+						<li class="lang__item"><a href="#" class="lang__link">Eng</a></li>
+						<li class="lang__item"><a href="#" class="lang__link">Cn</a></li>
+					</ul>
+				</div>
+
+				<div class="flex-item logo">
+					<a href="#" title="Главный сайт сети фитнес-клубов Малибу" class="logo__link">
+						<img src="img/logo.png" alt="Логотип компании" class="logo__img">
+					</a>
+				</div>
+
+				<div class="flex-item info">
+					<div class="info__time">
+						<div>За 
+							<span class="info__paragraph">
+								<span id="minutes">0</span> 
+								<span id="minutes-text">минут</span> 
+								<span id="secounds">0</span> 
+								<span id="secounds-text">секунд</span> 
+							</span>
+							
+							Вы бы<br> уже заработали с <span class="info__brand">МАЛИБУ</span>
+						</div>
+					</div>
+					<div class="info__earning">
+						<p>
+							<span class="info__earning--sum" id="sum">0</span><br>	
+							грн
+						</p>
+					</div>
+				</div>
+
+				<div class="flex-item btn-wrap align">
+					<a href="#" title="Кнопка" class="header__btn btn btn--business">Получить бизнесс-план</a>
+				</div>
+
+				<div class="flex-item header-contacts">
+					<p class="header-contacts__paragraph">
+						Начинай зарабатывать уже сейчас!
+					</p>
+					<div class="header-contacts__phone">
+						<a href="0967910190" class="header-contacts__link">
+							<svg class="header-contacts__img">
+							   <use xlink:href="#smartphone"></use>
+							</svg>
+							<span class="header-contact__phone">(096) 791-01-90</span>
+						</a>
+						<a href="0967910190" class="header-contacts__link">
+							<svg class="header-contacts__img">
+							   <use xlink:href="#phone"></use>
+							</svg>
+							<span class="header-contact__phone">(096) 791-01-90</span>
+						</a>
+					</div>
+					<div class="social">
+						<a href="viber://add?number=+380978094224" class="social__link">
+							<svg class="social__icon">
+							   <use xlink:href="#viber"></use>
+							</svg>
+						</a>
+						<a href="whatsapp://send?phone=380978094224" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#whatsapp"></use>
+							</svg>
+						</a>
+						<a href="skype:litv.i.v?chat" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#skype"></use>
+							</svg>
+						</a>
+						<a href="https://m.me/Abdula7707" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#facebook"></use>
+							</svg>
+						</a>
+						<a href="tg://resolve?domain=380978094224" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#telegram"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+</body>
+<article>
+	<section class="header-section">
+		<div class="top-block">
+			<div class="container">
+				<div class="top-block__inner flex-wrap">
+					<div class="top-block__item">
+						<h1 class="h1 top-block__h1">Откройте свой фитнес клуб</h1>
+						<p class="top-block__paragraph">Получите чистую прибыль от $1000-10000 в месяц с окупаемостью в 12 месяцев!</p>
+					</div>
+					<div class="top-block__item">
+						<img src="img/girl.png" alt="девушка">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-block">
+			<div class="bottom-block__inner">
+				<div class="bottom-block__item">
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--1"></span>
+						<span class="bottom-block__paragraph">Сфера дефтельности: Фитнес-индустрия</span>
+					</div>
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--2"></span>
+						<span class="bottom-block__paragraph">Начало деятельности сети 2003</span>
+					</div>
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--3"></span>
+						<span class="bottom-block__paragraph">Страна происхождения: Украина</span>
+					</div>
+				</div>
+
+				<div class="bottom-block__item">
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--4"></span>
+						<span class="bottom-block__paragraph">Сумма инвестиций: от 30 000 $</span>
+					</div>
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--5"></span>
+						<span class="bottom-block__paragraph">Роялти: 5% от продаж в месяц</span>
+					</div>
+					<div class="bottom-block__icon-item">
+						<span class="bottom-block__img-wrap bottom-block__img-wrap--6"></span>
+						<span class="bottom-block__paragraph">Срок окупаемости: от 12 месяцев</span>
+					</div>
+				</div>
+			</div>
+			<a href='https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100000905869188%2F' class="btn bottom-block__btn--business" target="_blank">Задать вопросс в чате</a>
+		</div>
+	</section>
+
+	<section class="system">
+		<div class="system__hr"></div>
+		<div class="container">
+			<h4 class="h4 system__h4">Сеть фитнес-клубов "МАЛИБУ"</h4>
+			<p class="system__description">"МАЛИБУ"-это не просто сеть фитнес клубов в стандартном понимании.</p>
+			<p class="system__description">Мы пропагандируем здоровый образ жизни и стараемся сделать его доступным.</p>
+			<div class="system__icons-wrap">
+				<div class="system-item wow bounceInLeft" data-wow-delay="0.5s">
+					<div class="system-item__img-wrap">
+						<img src="img/sys-icon-1.jpg" class="system-item__img" alt="30 фитнес клубов в Украине">
+					</div>
+					<p class="system-item__description">30 фитнес клубов в Украине</p>
+				</div>
+				<div class="system-item wow bounceInLeft" data-wow-delay="0.4s">
+					<div class="system-item__img-wrap">
+						<img src="img/sys-icon-2.jpg" class="system-item__img" alt="фитнес-клубы">
+					</div>
+					<p class="system-item__description">фитнес-клубы <br>тренажерные залы <br>бассейны</p>
+				</div>
+
+				<div class="system-item wow bounceInLeft" data-wow-delay="0.3s">
+					<div class="system-item__img-wrap">
+						<img src="img/sys-icon-3.jpg" class="system-item__img" alt="программы для детей и взрослых">
+					</div>
+					<p class="system-item__description">программы для детей и взрослых</p>
+				</div>
+
+				<div class="system-item wow bounceInLeft" data-wow-delay="0.2s">
+					<div class="system-item__img-wrap">
+						<img src="img/sys-icon-4.jpg" class="system-item__img" alt="собственное програмное обеспечение">
+					</div>
+					<p class="system-item__description">собственное програмное обеспечение, SMM отдел</p>
+				</div>
+
+				<div class="system-item wow bounceInLeft" data-wow-delay="0.1s">
+					<div class="system-item__img-wrap">
+						<img src="img/sys-icon-5.jpg" class="system-item__img" alt="собственная школа инструкторов и бизнесс тренеров">
+					</div>
+					<p class="system-item__description">собственная школа инструкторов и бизнесс тренеров</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="paralax">
+		<div class="container">
+			<h2 class="h2 paralax__h2">С нами вы откроете прибыльный <br>фитнес-клуб с гарантией <br>возврата инвестиций</h2>
+			<a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100000905869188%2F" class="btn paralax__btn-chart" target="_blank">Задать вопрос в чате</a>
+		</div>
+	</section>
+		
+	<section class="panel">
+		<div class="container">
+			<h4 class="h4 panel__h4">Мы предлагаем лучшие условия для старта<br> успешного бизнеса</h4>
+			<div class="flex">
+				<div class="panel-item wow fadeInUp" data-wow-delay="0.3s">
+					<div class="panel-item__head">
+						<span class="panel-item__title">Дома</span>
+					</div>
+					<div class="panel-item__body">
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Сумма инвестиций:</p>
+							<p class="panel-item__info-block--sum">$40 k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Срок окупаемости</p>
+							<p class="panel-item__info-block--descr">-</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Гарантия вложений:</p>
+							<p class="panel-item__info-block--descr">100%</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Доходность в месяц:</p>
+							<p class="panel-item__info-block--descr">-</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Процентная ставка:</p>
+							<p class="panel-item__info-block--descr">0%</p>
+						</div>
+					</div>
+					<div class="panel-item__footer">
+						<p class="panel-item__footer--name">Что вы имеете<br> через 2 года</p>
+						<p class="panel-item__footer--sum">$40 000*</p>
+					</div>
+				</div>
+
+				<div class="panel-item wow fadeInUp" data-wow-delay="0.2s">
+					<div class="panel-item__head">
+						<span class="panel-item__title">Недвижимость</span>
+					</div>
+					<div class="panel-item__body">
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Сумма инвестиций:</p>
+							<p class="panel-item__info-block--sum">$40 k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Срок окупаемости</p>
+							<p class="panel-item__info-block--descr">13,3 года</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Гарантия вложений:</p>
+							<p class="panel-item__info-block--descr">зависит от спроса на недвижимость</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Доходность в месяц:</p>
+							<p class="panel-item__info-block--descr">250</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Процентная ставка:</p>
+							<p class="panel-item__info-block--descr">10%</p>
+						</div>
+					</div>
+					<div class="panel-item__footer">
+						<p class="panel-item__footer--name">Что вы имеете<br> через 2 года</p>
+						<p class="panel-item__footer--sum">$ 46 000*</p>
+					</div>
+				</div>
+
+				<div class="panel-item panel-item-center wow fadeInUp" data-wow-delay="0.1s">
+					<div class="panel-item__head">
+						<span class="panel-item__title">Франшиза малибу</span>
+					</div>
+					<div class="panel-item__body">
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Сумма инвестиций:</p>
+							<p class="panel-item__info-block--sum">$ 40 k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Срок окупаемости</p>
+							<p class="panel-item__info-block--descr">2 года</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Гарантия вложений:</p>
+							<p class="panel-item__info-block--descr">комплект оборудования ликвиден</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Доходность в месяц:</p>
+							<p class="panel-item__info-block--descr">1670</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Процентная ставка:</p>
+							<p class="panel-item__info-block--descr">50% годовых</p>
+						</div>
+					</div>
+					<div class="panel-item__footer">
+						<p class="panel-item__footer--name">Что вы имеете<br> через 2 года</p>
+						<p class="panel-item__footer--sum">$ 72 400</p>
+					</div>
+				</div>
+
+				<div class="panel-item wow fadeInUp" data-wow-delay="0.2s">
+					<div class="panel-item__head">
+						<span class="panel-item__title">Депозит в гривнах*</span>
+					</div>
+					<div class="panel-item__body">
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Сумма инвестиций:</p>
+							<p class="panel-item__info-block--sum">$40 k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Срок окупаемости</p>
+							<p class="panel-item__info-block--descr">6,25 года</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Гарантия вложений:</p>
+							<p class="panel-item__info-block--descr">фонд гарантирования вкладов</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Доходность в месяц:</p>
+							<p class="panel-item__info-block--descr">$ 14400</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Процентная ставка:</p>
+							<p class="panel-item__info-block--descr">16%</p>
+						</div>
+					</div>
+					<div class="panel-item__footer">
+						<p class="panel-item__footer--name">Что вы имеете<br> через 2 года</p>
+						<p class="panel-item__footer--sum">$52 800*</p>
+					</div>
+				</div>
+
+				<div class="panel-item wow fadeInUp" data-wow-delay="0.3s">
+					<div class="panel-item__head">
+						<span class="panel-item__title">Депозит в долларах</span>
+					</div>
+					<div class="panel-item__body">
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Сумма инвестиций:</p>
+							<p class="panel-item__info-block--sum">$40 k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Срок окупаемости</p>
+							<p class="panel-item__info-block--descr">20 лет</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Гарантия вложений:</p>
+							<p class="panel-item__info-block--descr">фонд гарантирования вкладов $8k</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Доходность в месяц:</p>
+							<p class="panel-item__info-block--descr">$ 166</p>
+						</div>
+						<div class="panel-item__info-block">
+							<p class="panel-item__info-block--name">Процентная ставка:</p>
+							<p class="panel-item__info-block--descr">5%</p>
+						</div>
+					</div>
+					<div class="panel-item__footer">
+						<p class="panel-item__footer--name">Что вы имеете<br> через 2 года</p>
+						<p class="panel-item__footer--sum">$43 984*</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="footnote">
+				<span class="footnote__text"><sup>*</sup> результаты могут варьироваться</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="location">
+		<h4 class="h4">Географическое расположение "Малибу"</h4>
+		<div class="location-wrap">
+			<img src="img/map.png" alt="карта">
+		</div>
+	</section>
+
+	<section class="calculator">
+		<div class="container">
+			<h4 class="h4">Посчитать рентабельность бизнеса</h4>
+
+			<div class="calc-inner">
+				<div class="calc-top">
+					<div class="flex calc-flex">
+						<div class="calc-top__manual">
+							<p>Обозначте площадь помещения,<br>
+								чтобы узнать, сколько <br>
+								вы заработаете в месяц
+							</p>
+						</div>
+						<div class="calc-top__slider">
+							<div id="slider">
+							</div>
+							<span class="min-val">200</span>
+							<span class="max-val">1000</span>
+						</div>	
+					</div>
+					<div class="flex calc-flex">
+						<div class="calc-top__item">
+							<span class="calc-top__item--result" id="clients">315</span>
+							<p class="calc-top__item--descr">Количество <br>клиентов</p>
+						</div>
+						<div class="calc-top__item">
+							<span class="calc-top__item--result" id="check">300</span>
+							<p class="calc-top__item--descr">Средний <br>чек</p>
+						</div>
+						<div class="calc-top__item">
+							<span class="calc-top__item--result" id="turnover">94500</span>
+							<p class="calc-top__item--descr">Валовый <br>оборот</p>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="calc-bottom">
+					<div class="flex beetwer calc-flex">
+						<div class="flex-column calc-bottom__column">
+							<div class="calc-data">
+								<div class="calc-data__descr">Заработная плата</div>
+								<div class="calc-data__sum" id="wages">22 500</div>
+							</div>
+							<div class="calc-data">
+								<div class="calc-data__descr">Аренда и коммунальные</div>
+								<div class="calc-data__sum" id="rent">15 500</div>
+							</div>
+						</div>
+						<div class="flex-column  calc-bottom__column">
+							<div class="calc-data">
+								<div class="calc-data__descr">Роялти 5%</div>
+								<div class="calc-data__sum" id="royalty">4 500</div>
+							</div>
+							<div class="calc-data">
+								<div class="calc-data__descr">Реклама и другие затраты</div>
+								<div class="calc-data__sum" id="other">9 000</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="calc-profit">
+					<p class="calc-profit__result" id="profit">39.000</p>
+					<p class="calc-profit__descr">Прибыль в месяц</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="paralax paralax-bottom">
+		<div class="container">
+			<h2 class="h2 paralax__h2">Успешная бизнес-модель,14+ лет опыта <br>30+ инвесторов уже зарабатывают вместе с нами. <br> Стань одним из них!</h2>
+			<a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100000905869188%2F" class="btn paralax__btn-chart paralax-bottom__btn" target="_blank">Задать вопрос в чате</a>
+		</div>
+	</section>
+
+	<section class="reasons">
+		<div class="container">
+			<h4 class="h4 reasons__h4 wow fadeIn" data-wow-delay="0.1s">7 причин популярности франшизы фитнес-клуба "МАЛИБУ"</h4>
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Оптимальная модель бизнес плана</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Мы предлагаем на выбор три франчайзинговых пакета для тренера, предпринимателя и инвестора. Вход в бизнес от 50 тыс. гривен.</p>
+				</div>
+			</div>
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Прибыльность</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Бизнес-модель фитнес-клубов "Малибу" выше депозитной ставки любого банка. Надежность инвестиций и их доходность находятся полностью под Вашим контролем.</p>
+				</div>
+			</div>
+
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Сетевой эффект</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Вход в бизнес для НАШИХ франчайзи максимально прост. Работая с поставщиками на эксклюзивных условиях, мы предлагаем Вам лучшие цены на оборудование и выгодную рассрочку по платежам. Мы не зарабатываем на своих партнерах, не навязываем дорогое и бесполезное оборудование.</p>
+				</div>
+			</div>
+
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Открытость и простота</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Мы строим только открытый и прозрачный бизнес. Инвесторы и франчайзи могут контролировать работу своего клуба в режиме онлайн через собственное программное обеспечение сети. Клиенты – наши друзья, мы честны с ними и всегда на одной волне: наши цены доступны, мы не внедряем сложные отделы продаж и запутанные системы покупки абонементов. Мы честны перед государством и своим персоналом: фитнес-клубы «Малибу» создаются и действуют согласно всем нормам закона, платят налоги и «белую» зарплату.</p>
+				</div>
+			</div>
+
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Окупаемость</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Наши клубы прибыльны с 1го месяца работы. За 14 лет существования сети ни один из клубов не закрылся – у нас успешно и прибыльно работают как полноценные фитнес-клубы, так и небольшые танцевальные студии.</p>
+				</div>
+			</div>
+
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Социальная ориентированность</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Мы не просто открываем спортивные клубы, мы меняем всю среду в том городе, в котором начинаем работать. Ищем идеальный баланс прибыльности и социальных выгод. Для этого у нас постоянно действуют программы лояльности и скидки для пенсионеров, воинов АТО, детей-сирот, студентов.</p>
+				</div>
+			</div>
+			
+			<div class="reason">
+				<div class="reason__title">
+					<p class="reason__title--text wow slideInLeft">Наша философия</p>
+					<img src="img/reasong-elipse.png" alt="круг" class="reason__title--img">
+				</div>
+				<div class="reason__content wow slideInRight">
+					<p class="reason__conent--text">Фитнес-клуб “МАЛИБУ” – это не помещение и не тренажеры. Это люди.
+						Люди, которые становятся одной семьей.
+						Мы – это наши клиенты, сотрудники, франчайзи, инвесторы.
+						Все вместе мы идем по сложному, но правильному пути: делаем спорт доступным, а бизнес – честным.
+						60% наших тренеров – это выпускники нашей школы фитнес-инструкторов, а шесть бывших администраторов клубов стали нашими франчайзи.
+						Главная наша инвестиция - это люди. Мы тратим на обучение и развитие больше, чем на тренажеры и ремонты.
+					Наш капитал – это наша команда, имя сети, довольные клиенты и партнеры. Вот, что для нас действительно важно!</p>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<section class="contacts">
+		<div class="container">
+			<div class="flex contacts-flex">
+				<div class="contact-item contact-photo">
+					<div class="contact-photo__img-wrap">
+						<img src="img/contacts-photo.jpg" alt="Игорь Литвинов">
+					</div>
+				</div>
+				<div class="contact-item contact-info">
+					<p class="contact-info__person-name">Игорь Литвинов</p>
+					<p class="contact-info__persone-post">соучредитель и директор по франчайзингу</p>
+					<p class="contact-info__descr">Сеть фитнес-клубов продолжает стремительно развиваться на территории Украины и ближнего зарубежья. Хотите стать частью нашей команды и пропагандировать здоровый образ жизни? Заниматься спортом и при этом <strong>ХОРОШО ЗАРАБАТЫВАТЬ?</strong> Получите бесплатный бизнес-план всего в один клик!</p>
+					<div class="contact-info__bottom">
+						<div class="contact-info__social-wrap">
+							<a href="viber://add?number=+380978094224" class="social__link">
+							<svg class="social__icon">
+							   <use xlink:href="#viber"></use>
+							</svg>
+						</a>
+						<a href="whatsapp://send?phone=380978094224" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#whatsapp"></use>
+							</svg>
+						</a>
+						<a href="skype:litv.i.v?chat" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#skype"></use>
+							</svg>
+						</a>
+						<a href="https://m.me/Abdula7707" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#facebook"></use>
+							</svg>
+						</a>
+						<a href="tg://resolve?domain=380978094224" class="header-contacts__social">
+							<svg class="social__icon">
+							   <use xlink:href="#telegram"></use>
+							</svg>
+						</a>
+						</div>
+						<div class="contact-info__phone">
+							<p>+38 (044) 209-40-22</p>
+							<p>+38 (097) 809-42-24</p>
+						</div>
+					</div>
+				</div>
+				<div class="contact-item contact-form">
+					<form action="#" id="ss-form">
+						<div class="form-field">
+							<input type="text" placeholder="Ваше имя" class="form-field__input" id="#entry_154507241">
+							<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+							<p class="error" style="display: none">Некорректный ввод</p>
+						</div>
+						
+						<div class="form-field">
+							<input type="text" placeholder="Ваш телефон" class="form-field__input" id="#entry_1275345737">
+							<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+							<p class="error" style="display: none">Некорректный ввод</p>
+						</div>
+
+						<div class="form-field">
+							<input type="text" placeholder="Введите адрес электронной" class="form-field__input" id="#entry_1771024270">
+							<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+							<p class="error" style="display: none">Некорректный ввод</p>
+						</div>
+
+						<div class="form-field">
+							<input type="text" placeholder="Ваш коментарий или вопрос" class="form-field__input">
+							<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+							<p class="error" style="display: none">Некорректный ввод</p>
+						</div>
+
+						<input type="submit" value="Получить бизнес план" class="btn btn--business form-field__btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</article>
+
+
+<footer class="footer">
+	<div class="container">	
+		<div class="flex-wrap">	
+			<div class="footer-column">	
+				<a href="#" title="Главный сайт сети фитнес-клубов Малибу" class="logo__link">
+					<img src="img/logo-footer.png" alt="Логотип компании" class="logo__img">
+				</a>	
+				<p class="footer__title">Украинская сеть фитнес-клубов</p>
+			</div>
+			<div class="footer-column">	
+				<div class="footer__location">	
+					<p>Malibu-sport.com.ua, 2010 – 2017</p>
+					<p>Фитнес-клубы Харькова, Одессы, Львова, Киева, Чернигова, Краматорска, Южноукраинска</p>
+				</div>
+				<div class="footer__developed">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="hide">
+		<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			
+			<symbol id="whatsapp" viewBox="0 0 512 512" >
+				<circle style="fill:#75B73B;" cx="256" cy="256" r="256"/>
+				<path style="fill:#52891D;" d="M360.241,151.826c-14.843-3.712-36.671-16.532-50.8-21.671
+				c-55.165-17.239-129.293-3.448-149.98,60.337c-1.724,1.724-5.172,1.724-6.896,1.724c-41.374,48.269-13.791,106.882-17.239,160.323
+				c-1.177,18.839-11.083,35.497-23.831,49.588l107.282,107.17C230.931,511.067,243.355,512,256,512
+				c126.436,0,231.452-91.665,252.247-212.161L360.241,151.826z"/>
+				<g>
+					<path style="fill:#FFFFFF;" d="M248.837,108.447c-78.029,3.712-139.604,68.696-139.369,146.811
+					c0.072,23.792,5.816,46.249,15.95,66.095l-15.557,75.514c-0.841,4.086,2.843,7.663,6.901,6.701l73.995-17.53
+					c19.011,9.471,40.364,14.939,62.962,15.284c79.753,1.219,146.251-62.105,148.74-141.829
+					C405.121,174.035,334.591,104.362,248.837,108.447L248.837,108.447z M337.13,335.936c-21.669,21.669-50.483,33.604-81.13,33.604
+					c-17.944,0-35.126-4.027-51.066-11.966l-10.302-5.134l-45.37,10.747l9.549-46.356l-5.075-9.943
+					c-8.276-16.206-12.472-33.728-12.472-52.084c0-30.648,11.935-59.459,33.604-81.13c21.476-21.478,50.759-33.604,81.134-33.604
+					c30.644,0,59.458,11.935,81.127,33.604c21.669,21.669,33.604,50.483,33.604,81.127C370.735,285.177,358.607,314.459,337.13,335.936
+					L337.13,335.936z"/>
+					<path style="fill:#FFFFFF;" d="M327.115,286.582l-28.384-8.149c-3.729-1.069-7.749-0.01-10.468,2.76l-6.942,7.07
+					c-2.926,2.984-7.366,3.941-11.24,2.374c-13.427-5.434-41.672-30.548-48.881-43.106c-2.084-3.624-1.739-8.152,0.817-11.462
+					l6.058-7.839c2.374-3.07,2.874-7.197,1.305-10.747l-11.941-27.008c-2.86-6.468-11.126-8.352-16.527-3.784
+					c-7.921,6.701-17.32,16.88-18.461,28.16c-2.015,19.887,6.515,44.954,38.762,75.055c37.257,34.778,67.094,39.369,86.523,34.664
+					c11.019-2.667,19.825-13.365,25.379-22.126C336.906,296.467,333.91,288.535,327.115,286.582L327.115,286.582z"/>
+				</g>
+				<g>
+					<path style="fill:#D1D1D1;" d="M356.004,147.708l-22.223,22.778c1.131,1.045,2.257,2.096,3.351,3.191
+					c21.67,21.669,33.604,50.483,33.604,81.127c0,30.375-12.128,59.656-33.604,81.134c-21.669,21.669-50.483,33.604-81.13,33.604
+					c-17.944,0-35.125-4.027-51.066-11.966l-10.302-5.134l-45.37,10.747l0.938-4.553l-40.174,41.172
+					c0.886,2.663,3.705,4.475,6.734,3.758l73.995-17.53c19.011,9.471,40.364,14.939,62.962,15.284
+					c79.753,1.219,146.253-62.105,148.74-141.829C403.834,215.357,385.686,175.435,356.004,147.708z"/>
+					<path style="fill:#D1D1D1;" d="M327.115,286.582l-28.384-8.149c-3.729-1.069-7.749-0.01-10.468,2.76l-6.942,7.07
+					c-2.926,2.984-7.366,3.941-11.24,2.374c-7.756-3.139-20.451-12.845-31.185-22.904l-19.732,20.225
+					c0.677,0.648,1.352,1.295,2.05,1.948c37.257,34.778,67.094,39.369,86.523,34.664c11.019-2.667,19.825-13.365,25.379-22.126
+					C336.906,296.467,333.91,288.535,327.115,286.582z"/>
+				</symbol>
+			<symbol id="viber" viewBox="0 0 512 512">
+				<circle style="fill:#6F3FAA;" cx="256" cy="256" r="256"/>
+				<path style="fill:#512D84;" d="M367.061,140.443c-62.312-15.05-124.735-32.654-188.637-10.288
+				c-41.374,15.515-41.374,60.337-39.65,98.263c0,10.343-12.067,24.135-6.896,36.202c10.343,34.478,18.963,68.956,55.165,86.195
+				c5.172,3.448,0,10.343,3.448,15.515c-1.724,0-5.172,1.724-5.172,3.448c0,8.263,3.708,20.902,1.245,29.05L296.57,508.788
+				c113.09-18.01,201.478-110.068,213.914-224.921L367.061,140.443z"/>
+				<g>
+					<path style="fill:#FFFFFF;" d="M391.427,179.924l-0.084-0.338c-6.84-27.653-37.678-57.325-65.998-63.498l-0.319-0.066
+					c-45.806-8.738-92.251-8.738-138.047,0l-0.329,0.066c-28.31,6.173-59.149,35.847-65.998,63.498l-0.076,0.338
+					c-8.456,38.617-8.456,77.781,0,116.398l0.076,0.338c6.558,26.472,35.099,54.782,62.362,62.567v30.868
+					c0,11.173,13.615,16.66,21.357,8.597l31.275-32.509c6.784,0.379,13.571,0.591,20.356,0.591c23.057,0,46.125-2.181,69.023-6.549
+					l0.319-0.066c28.32-6.173,59.158-35.847,65.998-63.498l0.084-0.338C399.882,257.705,399.882,218.543,391.427,179.924z
+					M366.676,290.723c-4.567,18.041-27.981,40.469-46.585,44.613c-24.355,4.632-48.904,6.611-73.428,5.932
+					c-0.488-0.014-0.957,0.176-1.296,0.526c-3.481,3.572-22.835,23.442-22.835,23.442l-24.288,24.928
+					c-1.776,1.852-4.896,0.591-4.896-1.964v-51.136c0-0.845-0.603-1.562-1.433-1.726c-0.005-0.002-0.009-0.002-0.014-0.003
+					c-18.604-4.144-42.01-26.572-46.585-44.613c-7.611-34.906-7.611-70.292,0-105.198c4.575-18.041,27.981-40.469,46.585-44.613
+					c42.536-8.09,85.664-8.09,128.191,0c18.613,4.144,42.018,26.572,46.585,44.613C374.296,220.431,374.296,255.817,366.676,290.723z"
+					/>
+					<path style="fill:#FFFFFF;" d="M296.47,314.327c-2.86-0.869-5.585-1.452-8.118-2.501c-26.231-10.883-50.371-24.923-69.492-46.444
+					c-10.874-12.238-19.385-26.055-26.579-40.677c-3.412-6.934-6.287-14.139-9.218-21.299c-2.672-6.528,1.264-13.272,5.408-18.192
+					c3.889-4.617,8.894-8.149,14.314-10.754c4.23-2.032,8.402-0.86,11.492,2.725c6.678,7.752,12.814,15.9,17.78,24.886
+					c3.055,5.527,2.217,12.283-3.32,16.044c-1.346,0.914-2.572,1.988-3.825,3.02c-1.1,0.905-2.134,1.819-2.888,3.044
+					c-1.377,2.241-1.443,4.886-0.557,7.323c6.827,18.761,18.334,33.351,37.219,41.21c3.022,1.257,6.056,2.72,9.538,2.315
+					c5.83-0.681,7.718-7.077,11.804-10.418c3.993-3.265,9.097-3.308,13.398-0.586c4.303,2.724,8.473,5.646,12.619,8.601
+					c4.07,2.9,8.121,5.735,11.874,9.042c3.61,3.179,4.853,7.349,2.82,11.662c-3.72,7.901-9.135,14.472-16.944,18.668
+					C301.59,313.178,298.956,313.561,296.47,314.327C293.61,313.458,298.956,313.561,296.47,314.327z"/>
+					<path style="fill:#FFFFFF;" d="M256.071,165.426c34.309,0.962,62.49,23.731,68.529,57.651c1.029,5.78,1.395,11.688,1.853,17.555
+					c0.193,2.467-1.205,4.811-3.867,4.844c-2.75,0.033-3.987-2.269-4.167-4.734c-0.353-4.882-0.598-9.787-1.271-14.627
+					c-3.551-25.559-23.931-46.704-49.371-51.241c-3.829-0.683-7.745-0.862-11.624-1.269c-2.451-0.257-5.661-0.405-6.204-3.453
+					c-0.455-2.555,1.701-4.589,4.134-4.72C254.742,165.393,255.407,165.424,256.071,165.426
+					C290.382,166.388,255.407,165.424,256.071,165.426z"/>
+					<path style="fill:#FFFFFF;" d="M308.212,233.019c-0.057,0.429-0.086,1.436-0.338,2.384c-0.91,3.444-6.134,3.875-7.335,0.4
+					c-0.357-1.031-0.41-2.205-0.412-3.315c-0.012-7.266-1.591-14.526-5.256-20.849c-3.767-6.499-9.523-11.96-16.272-15.267
+					c-4.082-1.998-8.495-3.241-12.969-3.98c-1.955-0.324-3.931-0.519-5.896-0.793c-2.381-0.331-3.653-1.848-3.539-4.194
+					c0.105-2.198,1.712-3.781,4.108-3.644c7.873,0.446,15.479,2.15,22.48,5.856c14.234,7.539,22.366,19.437,24.74,35.326
+					c0.107,0.721,0.279,1.433,0.334,2.155C307.991,228.88,308.076,230.665,308.212,233.019
+					C308.155,233.446,308.076,230.665,308.212,233.019z"/>
+					<path style="fill:#FFFFFF;" d="M286.872,232.188c-2.87,0.052-4.406-1.538-4.703-4.168c-0.205-1.834-0.369-3.694-0.807-5.48
+					c-0.862-3.517-2.731-6.775-5.689-8.93c-1.396-1.017-2.979-1.758-4.636-2.238c-2.105-0.609-4.293-0.441-6.392-0.955
+					c-2.281-0.559-3.543-2.407-3.184-4.546c0.326-1.948,2.22-3.468,4.349-3.313c13.302,0.96,22.809,7.837,24.166,23.497
+					c0.097,1.105,0.209,2.272-0.036,3.331C289.518,231.193,288.178,232.1,286.872,232.188
+					C284.001,232.239,288.178,232.1,286.872,232.188z"/>
+				</g>
+				<path style="fill:#D1D1D1;" d="M391.427,179.924l-0.084-0.338c-3.834-15.501-15.212-31.635-29.458-43.911l-19.259,17.068
+				c11.452,9.125,21.264,21.766,24.052,32.78c7.62,34.907,7.62,70.292,0,105.2c-4.567,18.041-27.982,40.469-46.585,44.613
+				c-24.355,4.632-48.904,6.611-73.428,5.932c-0.488-0.014-0.957,0.176-1.296,0.526c-3.481,3.572-22.835,23.442-22.835,23.442
+				l-24.288,24.928c-1.776,1.852-4.896,0.593-4.896-1.964v-51.136c0-0.845-0.603-1.562-1.433-1.726c-0.005,0-0.009-0.002-0.014-0.002
+				c-10.573-2.355-22.692-10.618-32.028-20.621l-19.03,16.863c11.885,12.929,27.214,23.381,42.168,27.651v30.868
+				c0,11.173,13.615,16.66,21.357,8.597l31.275-32.509c6.784,0.379,13.569,0.591,20.356,0.591c23.057,0,46.125-2.181,69.023-6.549
+				l0.319-0.065c28.32-6.173,59.158-35.845,65.998-63.498l0.084-0.338C399.882,257.705,399.882,218.543,391.427,179.924z"/>
+				<path style="fill:#FFFFFF;" d="M296.47,314.327C298.956,313.561,293.61,313.458,296.47,314.327L296.47,314.327z"/>
+				<path style="fill:#D1D1D1;" d="M317.921,281.664c-3.753-3.305-7.806-6.142-11.874-9.042c-4.146-2.955-8.316-5.877-12.619-8.601
+				c-4.301-2.722-9.404-2.679-13.398,0.586c-4.086,3.341-5.973,9.737-11.804,10.418c-3.481,0.405-6.516-1.059-9.538-2.315
+				c-11.619-4.834-20.435-12.226-27.098-21.559l-14.16,12.55c0.481,0.557,0.94,1.129,1.429,1.679
+				c19.122,21.521,43.263,35.561,69.492,46.444c2.531,1.05,5.258,1.634,8.118,2.501c-2.86-0.869,2.488-0.765,0,0
+				c2.488-0.765,5.12-1.15,7.327-2.332c7.811-4.196,13.224-10.768,16.944-18.668C322.774,289.013,321.531,284.843,317.921,281.664z"/>
+				<g>
+					<path style="fill:#FFFFFF;" d="M256.159,165.431c-0.029,0-0.057-0.003-0.086-0.003
+					C256.045,165.426,256.081,165.428,256.159,165.431z"/>
+					<path style="fill:#FFFFFF;" d="M256.072,165.426c0.029,0,0.057,0.003,0.086,0.003C258.062,165.497,289.03,166.35,256.072,165.426z"
+					/>
+				</g>
+				<g>
+					<path style="fill:#D1D1D1;" d="M305.285,185.837l-6.037,5.351c9.487,9.23,16.029,21.463,17.899,34.925
+					c0.672,4.842,0.919,9.745,1.272,14.627c0.179,2.467,1.415,4.768,4.167,4.736c2.663-0.033,4.06-2.376,3.867-4.844
+					c-0.459-5.866-0.824-11.776-1.853-17.555C321.957,208.229,315.07,195.518,305.285,185.837z"/>
+					<path style="fill:#D1D1D1;" d="M307.521,224.939c-1.729-11.578-6.532-21.026-14.51-28.224l-6.02,5.335
+					c3.113,2.763,5.806,6.008,7.88,9.587c3.665,6.323,5.244,13.583,5.256,20.849c0.002,1.11,0.055,2.284,0.412,3.317
+					c1.203,3.477,6.425,3.046,7.335-0.4c0.252-0.95,0.281-1.957,0.338-2.384c-0.057,0.429-0.138-2.353,0,0
+					c-0.138-2.353-0.222-4.139-0.357-5.923C307.802,226.371,307.629,225.659,307.521,224.939z"/>
+				</g>
+				<g>
+					<path style="fill:#FFFFFF;" d="M308.212,233.019C308.076,230.665,308.155,233.446,308.212,233.019L308.212,233.019z"/>
+					<path style="fill:#FFFFFF;" d="M286.872,232.188c0.045-0.003,0.088-0.026,0.131-0.031c-0.121,0-0.307,0.003-0.498,0.01
+					C286.629,232.17,286.742,232.189,286.872,232.188z"/>
+					<path style="fill:#FFFFFF;" d="M286.872,232.188c-0.129,0.002-0.243-0.017-0.367-0.021
+					C285.884,232.184,285.243,232.217,286.872,232.188z"/>
+					<path style="fill:#FFFFFF;" d="M287.003,232.157c-0.045,0.005-0.088,0.028-0.131,0.031
+					C287.208,232.165,287.179,232.157,287.003,232.157z"/>
+				</g>
+				<path style="fill:#D1D1D1;" d="M280.814,207.525l-6.128,5.432c0.338,0.205,0.669,0.419,0.99,0.652
+				c2.958,2.155,4.827,5.413,5.689,8.93c0.438,1.786,0.6,3.644,0.807,5.48c0.283,2.513,1.71,4.058,4.336,4.148
+				c0.191-0.005,0.379-0.009,0.498-0.01c1.264-0.14,2.531-1.026,2.936-2.774c0.245-1.057,0.133-2.226,0.036-3.331
+				C289.216,217.297,285.906,211.29,280.814,207.525z"/>
+				<g>	
+				</symbol>
+				<symbol id="skype" viewBox="0 0 512 512">
+					<circle style="fill:#65A2D9;" cx="256" cy="256" r="256"/>
+					<path style="fill:#3A7CA5;" d="M346.281,165.443c-53.317-5.544-107.382-33.278-155.789,2.638
+					C147.394,199.111,176.7,256,178.424,300.822c1.21,18.156-2.912,33.428-9.513,48.871l153.483,153.593
+					c88.004-23.569,157.296-92.853,180.881-180.85L346.281,165.443z"/>
+					<g>
+						<path style="fill:#FFFFFF;" d="M390.711,278.349c-4.651-6.428-6.803-14.276-6.796-22.206c0-0.047,0-0.093,0-0.14
+						c0-70.647-57.27-127.917-127.914-127.917c-15.458,0-30.267,2.751-43.979,7.777c-7.416,2.72-15.544,3.241-23.149,1.1
+						c-6.716-1.891-13.895-2.691-21.33-2.177c-31.229,2.15-56.37,27.743-57.99,59.006c-0.771,14.922,3.701,28.763,11.736,39.864
+						c4.646,6.428,6.803,14.276,6.796,22.211v0.14c0,70.644,57.266,127.914,127.914,127.914c15.458,0,30.267-2.748,43.979-7.777
+						c7.416-2.72,15.544-3.241,23.149-1.1c6.716,1.895,13.895,2.691,21.33,2.181c31.229-2.148,56.37-27.743,57.99-59.004
+						C403.218,303.294,398.746,289.452,390.711,278.349L390.711,278.349z M260.684,233.067c25.791,6.135,64.765,15.405,64.765,58.337
+						c0,21.147-10.416,37.283-29.327,45.428c-13.495,5.811-28.77,6.596-41.934,6.596c-40.45,0-65.993-31.451-67.065-32.79
+						c-6.625-8.307-5.261-20.414,3.048-27.039c8.309-6.625,20.416-5.261,27.039,3.048c0.057,0.069,15.336,17.618,36.976,18.303
+						c26.057,0.824,32.011-6.928,32.782-13.545c0.941-8.083-6.249-14.015-35.192-20.901c-24.535-5.832-61.611-14.651-61.611-54.189
+						c0-12.314,5.008-52.488,69.448-52.488c40.691,0,64.712,32.035,65.715,33.399c6.292,8.563,4.455,20.604-4.108,26.898
+						c-8.523,6.266-20.49,4.475-26.808-3.984c-0.453-0.581-14.202-15.879-34.799-17.834c-15.582-1.481-30.968,4.141-30.968,12.441
+						C228.649,223.541,233.067,226.499,260.684,233.067L260.684,233.067z"/>
+						<path style="fill:#FFFFFF;" d="M286.972,291.404c0.86-7.377-5.063-12.962-28.098-19.115v32.716
+						C280.974,304.802,286.249,297.605,286.972,291.404z"/>
+					</g>
+					<path style="fill:#D1D1D1;" d="M390.711,278.349c-4.651-6.428-6.804-14.276-6.796-22.207c0-0.047,0-0.093,0-0.14
+					c0-69.684-55.73-126.312-125.042-127.845v35.683c0.253-0.002,0.488-0.014,0.743-0.014c40.691,0,64.712,32.035,65.715,33.399
+					c6.292,8.563,4.455,20.604-4.108,26.898c-8.523,6.266-20.49,4.475-26.808-3.984c-0.453-0.581-14.202-15.879-34.799-17.834
+					c-0.248-0.024-0.495-0.029-0.743-0.05v30.377c0.596,0.143,1.191,0.288,1.81,0.434c25.791,6.135,64.765,15.403,64.765,58.337
+					c0,21.147-10.416,37.283-29.327,45.428c-11.921,5.134-25.231,6.344-37.248,6.556v40.464c14.417-0.319,28.246-2.998,41.103-7.713
+					c7.416-2.72,15.544-3.241,23.149-1.1c6.716,1.895,13.895,2.691,21.33,2.181c31.229-2.148,56.37-27.743,57.99-59.004
+					C403.218,303.294,398.746,289.452,390.711,278.349z"/>
+					<path style="fill:#FFFFFF;" d="M228.649,214.747c0,8.597,4.236,11.619,30.225,17.886v-30.377
+					C243.55,201.019,228.649,206.577,228.649,214.747z"/>
+				</symbol>
+				<symbol id="facebook" viewBox="0 0 512 512">
+					<circle style="fill:#4E598F;" cx="256.001" cy="256" r="256"/>
+					<path style="fill:#364270;" d="M511.596,241.7L391.019,121.085c-1.998,0.605-6.982-1.714-9.173-1.274
+					c-51.717,8.62-101.71,0-151.704,13.791c-24.135,6.896-25.859,36.202-34.478,55.165c-12.067,34.478-10.343,72.404-25.859,105.158
+					c-10.343,22.411-34.478,36.202-43.098,62.061c-2.875,10.785-2.705,24.379-5.956,34.69l120.98,120.922
+					c4.725,0.26,9.48,0.403,14.269,0.403c141.384,0,256-114.616,256-256C512.001,251.201,511.858,246.434,511.596,241.7z"/>
+					<g>
+						<path style="fill:#FFFFFF;" d="M363.043,109.466H148.958c-21.809,0-39.49,17.68-39.49,39.49v214.085
+						c0,21.811,17.68,39.49,39.49,39.49h105.584l0.183-104.722h-27.21c-3.536,0-6.406-2.86-6.418-6.396l-0.133-33.759
+						c-0.014-3.553,2.867-6.444,6.42-6.444h27.162v-32.618c0-37.852,23.118-58.463,56.884-58.463h27.71c3.543,0,6.42,2.874,6.42,6.42
+						v28.463c0,3.546-2.874,6.42-6.416,6.42l-17.006,0.01c-18.363,0-21.921,8.725-21.921,21.533v28.239h40.351
+						c3.848,0,6.83,3.358,6.375,7.173l-4.001,33.759c-0.381,3.232-3.122,5.665-6.375,5.665h-36.168l-0.183,104.726h62.826
+						c21.809,0,39.49-17.682,39.49-39.491v-214.09C402.533,127.147,384.852,109.466,363.043,109.466L363.043,109.466z"/>
+						<polygon style="fill:#FFFFFF;" points="254.542,402.53 254.725,297.808 254.277,297.808 254.277,402.53 	"/>
+					</g>
+					<path style="fill:#D1D1D1;" d="M363.043,109.466H254.277v141.741h0.269V218.59c0-37.852,23.118-58.463,56.884-58.463h27.71
+					c3.543,0,6.42,2.874,6.42,6.42v28.463c0,3.546-2.874,6.42-6.416,6.42l-17.006,0.01c-18.363,0-21.921,8.725-21.921,21.533v28.238
+					h40.351c3.848,0,6.83,3.358,6.375,7.173l-4.001,33.759c-0.381,3.232-3.122,5.665-6.375,5.665h-36.168l-0.183,104.726h62.826
+					c21.809,0,39.49-17.682,39.49-39.491V148.956C402.533,127.147,384.852,109.466,363.043,109.466z"/>
+				</symbol>
+				<symbol id="telegram" viewBox="0 0 512 512">
+					<circle style="fill:#7AA5DA;" cx="256" cy="256" r="256"/>
+					<path style="fill:#5786B5;" d="M511.924,250.077L398.283,136.625l-185.108,225.63l133.284,133.284
+					C443.197,458.988,512,365.535,512,256C512,254.019,511.969,252.045,511.924,250.077z"/>
+					<path style="fill:#FFFFFF;" d="M383.717,133.52c10.206-3.982,20.756,4.948,18.515,15.67l-45.77,218.781
+					c-2.138,10.257-14.188,14.877-22.635,8.671l-69.094-50.717l-35.219,35.961c-6.189,6.31-16.86,3.741-19.515-4.672l-25.41-80.662
+					l-68.112-20.118c-8.947-2.638-9.464-15.084-0.793-18.48L383.717,133.52z M350.118,182.065c2.982-2.638-0.483-7.292-3.862-5.189
+					l-147.015,91.177c-2.586,1.603-3.775,4.758-2.862,7.671l20.049,88.04c0.397,1.345,2.327,1.155,2.5-0.241l4.482-67.094
+					c0.172-1.655,0.965-3.172,2.207-4.275L350.118,182.065z"/>
+					<path style="fill:#9EC2E5;" d="M346.257,176.876c3.379-2.103,6.844,2.551,3.862,5.189l-124.5,110.089
+					c-1.241,1.103-2.034,2.62-2.207,4.275l-4.482,67.094c-0.172,1.396-2.103,1.586-2.5,0.241l-20.049-88.04
+					c-0.914-2.913,0.276-6.068,2.862-7.671L346.257,176.876z"/>
+					<path style="fill:#FFFFFF;" d="M217.154,364.678c-3.241-1.155-5.982-3.741-7.154-7.465l-25.41-80.662l-68.112-20.118
+					c-8.947-2.638-9.464-15.084-0.793-18.48L383.717,133.52c6.585-2.569,13.326,0.241,16.653,5.448
+					c-0.621-0.948-1.362-1.827-2.189-2.603L216.343,284.81v6.499l-1-0.724l1,40.926v32.823c0.259,0.121,0.534,0.224,0.81,0.31V364.678
+					L217.154,364.678z"/>
+					<g>
+						<path style="fill:#D1D1D1;" d="M402.525,145.518c0.052,1.172-0.034,2.413-0.293,3.672l-45.77,218.781
+						c-2.138,10.257-14.188,14.877-22.635,8.671l-69.094-50.717l-48.39-34.616v-6.499l181.838-148.446
+						c0.827,0.776,1.569,1.655,2.189,2.603c0.121,0.207,0.241,0.396,0.362,0.586c0.103,0.207,0.224,0.414,0.328,0.603
+						c0.103,0.207,0.207,0.414,0.293,0.621c0.103,0.224,0.19,0.431,0.276,0.655c0.069,0.19,0.155,0.396,0.224,0.621
+						c0.224,0.672,0.396,1.362,0.517,2.086C402.439,144.587,402.491,145.036,402.525,145.518z"/>
+						<path style="fill:#D1D1D1;" d="M264.733,325.925l-35.219,35.961c-0.293,0.293-0.603,0.586-0.914,0.845
+						c-0.31,0.259-0.621,0.483-0.948,0.707c-0.017,0.017-0.017,0.017-0.017,0.017c-0.655,0.431-1.327,0.793-2.034,1.086
+						c-0.362,0.138-0.707,0.276-1.069,0.362c-1.5,0.448-3.034,0.569-4.551,0.414c-0.396-0.034-0.793-0.103-1.172-0.172
+						c-0.052,0-0.103-0.017-0.155-0.034c-0.379-0.103-0.759-0.207-1.138-0.328c-0.121-0.034-0.241-0.069-0.362-0.138l-0.81-33.133
+						v-40.202L264.733,325.925z"/>
+					</symbol>
+
+					<symbol id="phone" viewBox="0 0 27.442 27.442">
+						<path d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546
+						c1.103,0,1.997-0.895,1.997-1.997V1.999C21.491,0.896,20.597,0,19.494,0z M10.872,1.214h5.7c0.144,0,0.261,0.215,0.261,0.481
+						s-0.117,0.482-0.261,0.482h-5.7c-0.145,0-0.26-0.216-0.26-0.482C10.612,1.429,10.727,1.214,10.872,1.214z M13.722,25.469
+						c-0.703,0-1.275-0.572-1.275-1.276s0.572-1.274,1.275-1.274c0.701,0,1.273,0.57,1.273,1.274S14.423,25.469,13.722,25.469z
+						M19.995,21.1H7.448V3.373h12.547V21.1z"/>
+					</symbol>
+
+					<symbol id="smartphone" viewBox="0 0 348.077 348.077">
+						<path d="M340.273,275.083l-53.755-53.761c-10.707-10.664-28.438-10.34-39.518,0.744l-27.082,27.076
+						c-1.711-0.943-3.482-1.928-5.344-2.973c-17.102-9.476-40.509-22.464-65.14-47.113c-24.704-24.701-37.704-48.144-47.209-65.257
+						c-1.003-1.813-1.964-3.561-2.913-5.221l18.176-18.149l8.936-8.947c11.097-11.1,11.403-28.826,0.721-39.521L73.39,8.194
+						C62.708-2.486,44.969-2.162,33.872,8.938l-15.15,15.237l0.414,0.411c-5.08,6.482-9.325,13.958-12.484,22.02
+						C3.74,54.28,1.927,61.603,1.098,68.941C-6,127.785,20.89,181.564,93.866,254.541c100.875,100.868,182.167,93.248,185.674,92.876
+						c7.638-0.913,14.958-2.738,22.397-5.627c7.992-3.122,15.463-7.361,21.941-12.43l0.331,0.294l15.348-15.029
+						C350.631,303.527,350.95,285.795,340.273,275.083z"/>
+					</symbol>
+			</svg>
+</div>
+
+<div class="discount-overlay">
+	<form action="#" method="post" id="ss-form" class="discount-form">
+		<span class="btn-close close">✖</span>
+		<h4 id="overlay-h4">Получить бизнесс-план</h4>
+		<div class="form-field">
+			<input type="text" placeholder="Ваше имя" class="form-field__input" id="#entry_154507241">
+			<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+			<p class="error" style="display: none">Некорректный ввод</p>
+		</div>
+
+		<div class="form-field">
+			<input type="text" placeholder="Ваш телефон" class="form-field__input" id="#entry_1275345737">
+			<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+			<p class="error" style="display: none">Некорректный ввод</p>
+		</div>
+
+		<div class="form-field">
+			<input type="text" placeholder="Введите адрес электронной" class="form-field__input" id="#entry_1771024270">
+			<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+			<p class="error" style="display: none">Некорректный ввод</p>
+		</div>
+
+		<div class="form-field">
+			<input type="text" placeholder="Ваш коментарий или вопрос" class="form-field__input">
+			<p class="error" style="display: none">Это обязательное поле для заполнения</p>
+			<p class="error" style="display: none">Некорректный ввод</p>
+		</div>
+
+		<input type="submit" value="Получить" class="btn btn--business form-field__btn">
+	</form>
+</div>
+
+<script src="libs/jQuery/jquery-3.2.1.min.js"></script>
+<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+<script src="libs/wow/wow.min.js"></script>
+<script src="libs/jquery-ui-touch-punch-master/jquery.ui.touch-punch.min.js"></script>
+<script src="js/common.js"></script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>

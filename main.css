@@ -1,3 +1,14 @@
+/*===========================================FONTS==============================================*/
+@font-face {
+	font-family: "glyphicons-halflings-regular";
+	src: url("fonts/Glyphicons/glyphicons-halflings-regular.eot");
+	src: url("fonts/Glyphicons/glyphicons-halflings-regular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/Glyphicons/glyphicons-halflings-regular.woff") format("woff"),
+	url("fonts/Glyphicons/glyphicons-halflings-regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*============================================MAIN=================================================*/
 body{
 	font-size: 16px;
 	line-height: 1.5em;
@@ -391,4 +402,61 @@ footer .nav-bottom li.active .border-link,
 .loader span:nth-child(4) {
   bottom: 0;
   right: 0;
+}
+
+
+/*============================================MEDIA=============================================*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header-text-wrap{
+		margin-top: -130px;
+	}
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top-head .header-title{
+		font-size: 18px;
+		margin-left: -140px;
+		top: 60px;
+	}
+	h1{
+		font-size: 36px;
+	}
+	.header-text-wrap{
+		margin-top: -100px;
+	}
+	.port-item{
+		height: 250px;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.col-480-1{
+		width: 100%!important;
+		float: none;
+		text-align: center!important;
+	}
+	.hidden-480{
+		display: none;
+	}
+	.header-text-wrap{
+		margin-top: -80px;
+	}
+	.port-item{
+		height: 320px;
+	}
 }
