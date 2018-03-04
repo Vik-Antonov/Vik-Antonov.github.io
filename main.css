@@ -233,6 +233,10 @@ ul, li{
 .rezume-item{
 	margin-bottom: 30px;
 }
+.resume__icon{
+	width: 100px;
+	height: 100px;
+}
 .item-info{
 	display: inline-block;
 	height: 20px;
@@ -255,8 +259,13 @@ ul, li{
 	text-align: center;
 	margin-bottom: 30px;
 }
-.contact-item .contact-icon{
+.contact-item .contact__icon-wrap{
 	margin-bottom: 5px;
+}
+.contact__icon{
+	width: 50px;
+	height: 50px;
+	fill: #FF6347;
 }
 .contact-item .contact-desc a{
 	color: #333;
