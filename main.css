@@ -13,6 +13,7 @@ body{
 	font-size: 16px;
 	line-height: 1.5em;
 	font-family: 'Exo 2', sans-serif;
+	min-width: 320px;
 }
 section{
 	padding: 60px 0;
@@ -32,6 +33,7 @@ section{
 	text-align: center;
 	margin: 0 0 60px 0;
 	font-size: 32px;
+	line-height: 40px;
 }
 a:hover,
 a:focus{
@@ -68,6 +70,11 @@ p{
 	height: 100%;
 	background-color: rgba(0,0,0,.6);
 }
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
 .top-head{
 	position: relative;
 	padding-top: 30px;
@@ -85,7 +92,7 @@ p{
 }
 .top-head__title{
 	position: absolute;
-	top: 30px;
+	top: 15px;
 	left: 50%;
 	margin-left: -160px;
 	text-transform: uppercase;
@@ -334,7 +341,7 @@ p{
 	height: auto;
 }
 .footer__logo-link{
-	display: block;
+	display: inline-block;
 }
 .footer__border-link,
 .mm-listview>li>span.border-link{
@@ -449,8 +456,8 @@ p{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.header-text-wrap{
-		margin-top: -130px;
+	.header{
+		min-height: 550px;
 	}
 }
 
@@ -458,7 +465,7 @@ p{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.top-head .header-title{
+	.top-head__title{
 		font-size: 18px;
 		margin-left: -140px;
 		top: 60px;
@@ -486,10 +493,18 @@ p{
 	.hidden-480{
 		display: none;
 	}
-	.header-text-wrap{
-		margin-top: -80px;
-	}
-	.port-item{
+	.site{
 		height: 320px;
+	}
+	.rezume__item--right,
+	.rezume__item--left{
+		text-align: center;
+	}
+	.footer__logo-wrap{
+		text-align: center;
+	}
+	.bottom-head__h1{
+		font-size: 36px;
+		line-height: 46px;
 	}
 }
