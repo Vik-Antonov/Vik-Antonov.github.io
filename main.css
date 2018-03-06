@@ -27,25 +27,8 @@ section{
 	color: #fff;
 	background-image: url(img/dark-bg.png);
 }
-h1{
-	text-align: center;
-	margin: 0 0 50px 0;
-	position: relative;
-	font-size: 42px;
-	color: #FF6347;
-	letter-spacing: 7px;
-}
-h1:after{
-	content: '';
-	position: absolute;
-	left: 50%;
-	bottom: -10px;
-	width: 140px;
-	height: 3px;
-	background-color: #fff;
-	margin-left: -70px;
-}
-h2{
+
+.h2{
 	text-align: center;
 	margin: 0 0 60px 0;
 	font-size: 32px;
@@ -56,12 +39,15 @@ a:focus{
 }
 ul, li{
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-.mm-slideout{
-	overflow: hidden;
+p{
+	margin: 0;
 }
+
 /*---------------------main-head----------------*/
-.main-head{
+.header{
 	width: 100%;
 	height: 100vh;
 	background-position: center;
@@ -71,7 +57,7 @@ ul, li{
 	background-attachment: fixed;
 	position: relative;
 }
-.main-head:before{
+.header:before{
 	content: '';
 	display: block;
 	position: absolute;
@@ -87,14 +73,17 @@ ul, li{
 	padding-top: 30px;
 	z-index: 10;
 }
-.logo-wrap{
+.top-head__logo-wrap{
 	float: left;
 	width: 140px;
 }
-.logo-wrap img{
+.top-head__logo-link{
+	display: block;
+}
+.top-head__logo{
 	max-width: 100%;
 }
-.top-head .header-title{
+.top-head__title{
 	position: absolute;
 	top: 30px;
 	left: 50%;
@@ -104,13 +93,13 @@ ul, li{
 	letter-spacing: 10px;
 	color: #fff;
 }
-.header-menu-btn{
+.head-menu__btn{
 	float: right;
 }
 .mm-menu.mm-offcanvas{
 	z-index: 1;
 }
-.middle-head{
+.bottom-head{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -119,17 +108,40 @@ ul, li{
 	width: 100%;
 	height: 100%;
 }
-.header-text-wrap{
+.bottom-head__wrap{
 	display: inline-block;
 	text-align: center;
 	margin-top: -150px;
 }
-.header-text-wrap p{
+.bottom-head__h1{
+	text-align: center;
+	margin: 0 0 50px 0;
+	position: relative;
+	font-size: 42px;
+	line-height: 52px;
+	color: #FF6347;
+	letter-spacing: 7px;
+}
+.bottom-head__h1:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	width: 140px;
+	height: 3px;
+	background-color: #fff;
+	margin-left: -70px;
+}
+.bottom-head__p{
 	letter-spacing: 3px;
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.bottom-head__p:last-child{
+	margin: 0;
 }
 .hamburger-inner,
 .hamburger-inner:before,
@@ -138,6 +150,9 @@ ul, li{
 	border-radius: 0;
 	width: 34px;
 	height: 2px;
+}
+.mm-slideout{
+	overflow: hidden;
 }
 .mm-menu.mm-theme-black .mm-navbar a, .mm-menu.mm-theme-black .mm-navbar>*{
 	color: #FF6347;
@@ -171,24 +186,21 @@ ul, li{
 .portfolio{
 	background-image: url(img/light-bg.jpg);
 }
-.port-item{
+.site{
 	margin: 0 0 30px 0;
 	height: 300px;
 	overflow: hidden;
 	border-radius: 30px;
-	box-shadow: 0 0 1px rgba(0,0,0, .5);
+	box-shadow: 1px 1px 2px rgba(0,0,0, .5);
 }
-.port-item .port-link{
+.site__link{
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 100%;
 	outline: 1px solid rgba(0,0,0,.2);
 }
-.port-item .port-link:hover .caption{
-	opacity: .6;
-}
-.port-item .port-link .caption{
+.site__overlay{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -201,43 +213,47 @@ ul, li{
 	opacity: 0;
 	transition: all .4s ease;
 }
-.port-item .port-link .caption .caption-content{
+.site__icon-wrap{
 	color: #fff;
 	font-size: 32px;
 	transform: translateY(-90px);
 	transition: all .4s ease;
 }
-.port-item .port-link:hover .caption .caption-content{
-	transform: translateY(0);
-}
-.port-item .port-link img{
+.site__img,
+.site__icon{
 	max-width: 100%;
 	height: auto;
 }
+.site__link:hover .site__icon-wrap{
+	transform: translateY(0);
+}
+.site__link:hover .site__overlay{
+	opacity: .6;
+}
+
 
 /*-----------------------Rezume---------------------------*/
 .rezume{
 	position: relative;
-
 }
-.rezume .rezume-left{
-	text-align: right;
-}
-.rezume .rezume-right{
-	text-align: left;
-}
-.rezume-icon{
-	font-size: 40px;
+.rezume__item{
 	margin-bottom: 30px;
 }
-.rezume-item{
+.rezume__item--right{
+	text-align: right;
+}
+.rezume__item--left{
+	text-align: left;
+}
+.rezume__icon-wrap{
+	font-size: 40px;
 	margin-bottom: 30px;
 }
 .resume__icon{
 	width: 100px;
 	height: 100px;
 }
-.item-info{
+.resume__title{
 	display: inline-block;
 	height: 20px;
 	line-height: 20px;
@@ -245,21 +261,18 @@ ul, li{
 	background-color: #FF6347;
 	margin-bottom: 15px;
 }
-.rezume-item-text{
+.rezume__description{
 	line-height: 20px;
 	height: 100px;
 	overflow: hidden;
 }
 
 /*-----------------------contacts--------------------*/
-.contacts h2{
-	margin-bottom: 60px;
-}
-.contact-item{
+.contact{
 	text-align: center;
 	margin-bottom: 30px;
 }
-.contact-item .contact__icon-wrap{
+.contact__icon-wrap{
 	margin-bottom: 5px;
 }
 .contact__icon{
@@ -267,36 +280,40 @@ ul, li{
 	height: 50px;
 	fill: #FF6347;
 }
-.contact-item .contact-desc a{
+.contact__title{
+	display: block;
+	text-align: center;
+}
+.contact__link{
 	color: #333;
 	text-decoration: none;
 	border-bottom: 2px dotted #FF6347;
 	transition: all .2s ease;
 }
-.contact-item .contact-desc a:hover{
+.contact__link:hover{
 	color: #444;
 	border-bottom: 2px solid rgba(0,0,0,0);
 }
 
 /*----------------------footer-----------------------*/
-footer{
+.footer{
 	padding: 30px 0;
 }
-footer .nav-bottom{
+.footer__nav{
 	width: 100%;
 	margin: 15px;
 }
-footer .nav-bottom ul{
+.footer__listing{
 	display: flex;
 	justify-content: space-between;
 	padding: 0;
 }
-footer .nav-bottom li{
+.footer__list{
 	display: inline-block;
 	margin: 0 10px;
 	position: relative;
 }
-footer .nav-bottom li a{
+.footer__link{
 	font-size: 18px;
 	padding: 10px;
 	color: #fff;
@@ -304,15 +321,22 @@ footer .nav-bottom li a{
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
 }
-footer .nav-bottom li a:hover{
+.footer__link:hover{
 	color: #FF6347;
 }
-footer .logo-wrap{
+.footer__logo-wrap{
 	display: block;
 	margin: 0 auto;
 	float: none;
 }
-footer .nav-bottom li .border-link,
+.footer__logo{
+	max-width: 100%;
+	height: auto;
+}
+.footer__logo-link{
+	display: block;
+}
+.footer__border-link,
 .mm-listview>li>span.border-link{
 	display: block;
 	width: 0;
@@ -326,8 +350,8 @@ footer .nav-bottom li .border-link,
 	padding: 0;
 
 }
-footer .nav-bottom li:hover .border-link,
-footer .nav-bottom li.active .border-link,
+.footer__list:hover .footer__border-link,
+.footer__list.active .footer__border-link,
 .mm-listview>li:hover>span.border-link{
 	background-color: #FF6347;
 	width: 100%;
@@ -338,7 +362,7 @@ footer .nav-bottom li.active .border-link,
 /*-------------------preloader------------------*/
 .preloader{
 	position: fixed;
-	top:0;
+	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;

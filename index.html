@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Шлепаков Виталий</title>
-	<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/jquery.mmenu/jquery.mmenu.all.css">
 	<link rel="stylesheet" href="libs/hamburgers-master/hamburgers-master/dist/hamburgers.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&amp;subset=cyrillic" rel="stylesheet">
@@ -26,18 +27,18 @@
 	<div id="my-page">
 
 		<div id="my-header">
-			<header class="main-head" style="background-image: url(img/header-bg.jpg);" id="main">
+			<header class="header" style="background-image: url(img/header-bg.jpg);" id="main">
 				<div class="top-head clearfix">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="logo-wrap">
-									<a href="https://vik-antonov.github.io/"><img src="img/logo-1.png" alt="logo"></a>
+								<div class="top-head__logo-wrap">
+									<a href="https://vik-antonov.github.io/" class="top-head__logo-link"><img src="img/logo-1.png" alt="logo" class="top-head__logo"></a>
 								</div>
-								<div class="header-title" id="par">
+								<div class="top-head__title" id="par">
 									сайт портфолио
 								</div>
-								<div class="header-menu-btn">
+								<div class="head-menu__btn">
 									<a href="#my-menu" class="hamburger hamburger--collapse ">
 										<span class="hamburger-box">
 											<span class="hamburger-inner"></span>
@@ -56,11 +57,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="middle-head">
-					<div class="header-text-wrap">
-						<h1>Виталий Шлепаков</h1>
-						<p>HTML5 - CSS3 - JS</p>
-						<p>Bootstrap - Sass- Gulp - Photoshop</p>
+				<div class="bottom-head">
+					<div class="bottom-head__wrap">
+						<h1 class="bottom-head__h1">Виталий Шлепаков</h1>
+						<p class="bottom-head__p">HTML5 - CSS3 - JS</p>
+						<p class="bottom-head__p">Bootstrap - Sass- Gulp - Photoshop</p>
 					</div>	
 				</div>
 			</header>
@@ -71,84 +72,84 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2 >Мои работы</h2>
+							<h2 class="h2">Мои работы</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0">
-								<a href="sites/mayami/index.html" target="_blank" class="port-link" title="маями">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0">
+								<a href="sites/mayami/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/mayami.jpg" alt="маями">
+									<img src="img/mayami.jpg" class="site__img" alt="маями">
 								</a>	
 							</div>	
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.1s">
-								<a href="sites/indor_media/index.html" target="_blank" class="port-link" title="индо-медиа">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.1s">
+								<a href="sites/indor_media/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/indor.jpg" alt="индо-медиа">
+									<img src="img/indor.jpg" class="site__img" alt="индо-медиа">
 								</a>	
 							</div>	
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.2s">
-								<a href="sites/dream_auto/index.html" target="_blank" class="port-link" title="дрим-авто">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.2s">
+								<a href="sites/dream_auto/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/dream-auto.jpg" alt="дрим-авто">
+									<img src="img/dream-auto.jpg" class="site__img" alt="дрим-авто">
 								</a>	
 							</div>	
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.3s">
-								<a href="sites/alexander/index.html" target="_blank" class="port-link" title="Интернет-магази 'Адександр'">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.3s">
+								<a href="sites/alexander/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/alexander.jpg" alt="Интернет-магази 'Адександр'">
+									<img src="img/alexander.jpg" class="site__img" alt="Интернет-магази 'Адександр'">
 								</a>	
 							</div>	
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.4s">
-								<a href="sites/tajam/index.html" target="_blank" class="port-link" title="Tajam">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.4s">
+								<a href="sites/tajam/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/tajam.jpg" alt="tajam">
+									<img src="img/tajam.jpg" class="site__img" alt="tajam">
 								</a>	
 							</div>	
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-480-1 col-xs-6">
-							<div class="port-item wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.5s">
-								<a href="sites/zebra/index.html" target="_blank" class="port-link" title="Интернет-магази 'Зебра'">
-									<div class="caption">
-										<div class="caption-content">
-											<i class="glyphicon glyphicon-zoom-in"></i>
+							<div class="site wow bounceInUp" data-wow-offset="200" data-wow-duration="1.5s" data-wow-delay="0.5s">
+								<a href="sites/zebra/index.html" target="_blank" class="site__link">
+									<div class="site__overlay">
+										<div class="site__icon-wrap">
+											<img src="img/loop.png" class="site__icon" alt="Лупа">
 										</div>
 									</div>
-									<img src="img/zebra.jpg" alt="Интернет-магази 'Зебра'">
+									<img src="img/zebra.jpg" class="site__img" alt="Интернет-магази 'Зебра'">
 								</a>	
 							</div>	
 						</div>
@@ -162,60 +163,60 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Мои знания и образование</h2>
+							<h2 class="h2">Мои знания и образование</h2>
 						</div>
 						<div class="rezume-container">
-							<div class="col-xs-6 col-480-1 rezume-left">
+							<div class="col-xs-6 col-480-1">
 								
-								<div class="rezume-item wow fadeInLeft" data-wow-delay="0" data-wow-offset="100">
-									<div class="rezume-icon">
+								<div class="rezume__item rezume__item--right wow fadeInLeft" data-wow-delay="0" data-wow-offset="100">
+									<div class="rezume__icon-wrap">
 										<svg class="resume__icon">
 											<use xlink:href="#graduation"></use>
 										</svg>
 									</div>
-									<div class="item-info">
-										Высшее
-									</div>
-									<p class="rezume-item-text">Донецкий национальный технический университет (ДонНТУ), факультет радиотехники и специальной подготовки (ФРТСП), специальность "Инженер по технической защите информации и автоматизации ее обработки". Квалификация - специалист.</p>
+									<span class="resume__title">
+										Высшее образование
+									</span>
+									<p class="rezume__description">Донецкий национальный технический университет (ДонНТУ), факультет радиотехники и специальной подготовки (ФРТСП), специальность "Инженер по технической защите информации и автоматизации ее обработки". Квалификация - специалист.</p>
 								</div>
 
-								<div class="rezume-item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100">
-									<div class="rezume-icon">
+								<div class="rezume__item rezume__item--right wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100">
+									<div class="rezume__icon-wrap">
 										<svg class="resume__icon">
 											<use xlink:href="#book"></use>
 										</svg>
 									</div>
-									<div class="item-info">
+									<span class="resume__title">
 										Самообразование
-									</div>
-									<p class="rezume-item-text">Курсы в интернете, видеокурсы, книги, документация, форумы, статьи...
+									</span>
+									<p class="rezume__description">Курсы в интернете, видеокурсы, книги, документация, форумы, статьи...
 									Созданием сайтов занимаюсь с 2017 года по настоящее время</p>
 								</div>
 							</div>
 
-							<div class="col-xs-6 col-480-1 rezume-right">
+							<div class="col-xs-6 col-480-1">
 						
-								<div class="rezume-item wow fadeInRight" data-wow-delay="0" data-wow-offset="100">
-									<div class="rezume-icon">
+								<div class="rezume__item rezume__item--left wow fadeInRight" data-wow-delay="0" data-wow-offset="100">
+									<div class="rezume__icon-wrap">
 										<svg class="resume__icon">
 											<use xlink:href="#avatar"></use>
 										</svg>
 									</div>
-									<div class="item-info">
+									<span class="resume__title">
 										Знания в области Web
-									</div>
-									<p class="rezume-item-text">Язык программирования JavaScript, библиотека jQuery. Язык разметки HTML(5), таблицы стилей CSS(3), css-препроцессор SASS, адаптивная верстка под мобильные устройства, фреймворк Bootstrap, SVG графика, методология БЭМ.</p>
+									</span>
+									<p class="rezume__description">Язык программирования JavaScript, библиотека jQuery. Язык разметки HTML(5), таблицы стилей CSS(3), css-препроцессор SASS, адаптивная верстка под мобильные устройства, фреймворк Bootstrap, SVG графика, методология БЭМ.</p>
 								</div>
-								<div class="rezume-item wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="100">
-									<div class="rezume-icon">
+								<div class="rezume__item rezume__item--left wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="100">
+									<div class="rezume__icon-wrap">
 										<svg class="resume__icon">
 											<use xlink:href="#computer"></use>
 										</svg>
 									</div>
-									<div class="item-info">
+									<span class="resume__title">
 										Инструменты
-									</div>
-									<p class="rezume-item-text">Adobe Photoshop, Sublime Text (+Emmet, LiveReload), Gulp</p>
+									</span>
+									<p class="rezume__description">Adobe Photoshop, Sublime Text (+Emmet, LiveReload), Gulp</p>
 								</div>
 							</div>
 
@@ -228,70 +229,70 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Как со мной связаться</h2>
+							<h2 class="h2">Как со мной связаться</h2>
 						</div>
 					</div>
-					<div class="contacts_wrap">
+					<div class="contacts-wrap">
 						<div class="row">
 							<div class="col-sm-3 col-xs-6 col-480-1">
-								<div class="contact-item wow fadeIn" data-wow-delay="0">
+								<div class="contact wow fadeIn" data-wow-delay="0">
 									<div class="contact__icon-wrap">
 										<svg class="contact__icon">
 											<use xlink:href="#vk"></use>
 										</svg>
 									</div>
-									<div class="contact-title">
+									<span class="contact__title">
 										<strong>Вконтакте</strong>
-									</div>
-									<div class="contact-desc">
-										<a href="https://vk.com/id26370305" target="_blank">Виталий Шлепаков</a>
+									</span>
+									<div class="contact__description">
+										<a href="https://vk.com/id26370305" target="_blank" class="contact__link">Виталий Шлепаков</a>
 									</div>
 								</div>	
 							</div>
 							<div class="col-sm-3 col-xs-6 col-480-1">
-								<div class="contact-item wow fadeIn" data-wow-delay="0.3s">
+								<div class="contact wow fadeIn" data-wow-delay="0.3s">
 									<div class="contact__icon-wrap">
 										<svg class="contact__icon">
 											<use xlink:href="#clock"></use>
 										</svg>
 									</div>
-									<div class="contact-title">
+									<span class="contact__title">
 										<strong>Время</strong>
-									</div>
-									<div class="contact-desc">
+									</span>
+									<div class="contact__description">
 										<span>Ежедневно</span> <br>
 										<span>Круглосуточно</span>
 									</div>
 								</div>	
 							</div>
 							<div class="col-sm-3 col-xs-6 col-480-1">
-								<div class="contact-item wow fadeIn" data-wow-delay="0.6s">
+								<div class="contact wow fadeIn" data-wow-delay="0.6s">
 									<div class="contact__icon-wrap">
 										<svg class="contact__icon">
 											<use xlink:href="#phone"></use>
 										</svg>
 									</div>
-									<div class="contact-title">
+									<span class="contact__title">
 										<strong>Телефон</strong>
-									</div>
-									<div class="contact-desc">
+									</span>
+									<div class="contact__description">
 										<span>+3(050)-999-21-10</span><br>
 										<span>(Viber, Whatsapp, Telegram)</span>
 									</div>
 								</div>	
 							</div>	
 							<div class="col-sm-3 col-xs-6 col-480-1">
-								<div class="contact-item wow fadeIn" data-wow-delay="1s">
+								<div class="contact wow fadeIn" data-wow-delay="1s">
 									<div class="contact__icon-wrap">
 										<svg class="contact__icon">
 											<use xlink:href="#mail"></use>
 										</svg>
 									</div>
-									<div class="contact-title">
+									<span class="contact__title">
 										<strong>Почта</strong>
-									</div>
-									<div class="contact-desc">
-										<a href="mailto:changer_5@bk.ru">changer_5@bk.ru</a>
+									</span>
+									<div class="contact__description">
+										<a href="mailto:changer_5@bk.ru" class="contact__link">changer_5@bk.ru</a>
 									</div>
 								</div>	
 							</div>
@@ -302,24 +303,24 @@
 		</div>
 		
 		<div id="my-footer">
-			<footer class="dark">
+			<footer class="footer dark">
 				<div class="footer-menu">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-9 col-sm-push-3 hidden-480">
-								<nav class="nav-bottom">
-									<ul class="clearfix">
-										<li><a href="#main">Главная</a><span class="border-link"></span></li>
-										<li><a href="#portfolio">Мои работы</a><span class="border-link"></span></li>
-										<li><a href="#rezume">Резюме</a><span class="border-link"></span></li>
-										<li><a href="#contacts">Контакты</a><span class="border-link"></span></li>
+								<nav class="footer__nav">
+									<ul class="clearfix footer__listing">
+										<li class="footer__list"><a href="#main" class="footer__link">Главная</a><span class="footer__border-link"></span></li>
+										<li class="footer__list"><a href="#portfolio" class="footer__link">Мои работы</a><span class="footer__border-link"></span></li>
+										<li class="footer__list"><a href="#rezume" class="footer__link">Резюме</a><span class="footer__border-link"></span></li>
+										<li class="footer__list"><a href="#contacts" class="footer__link">Контакты</a><span class="footer__border-link"></span></li>
 									</ul>
 								</nav>
 							</div>
 
 							<div class="col-sm-3 col-sm-pull-9 clearfix">
-								<div class="logo-wrap">
-									<a href="https://vik-antonov.github.io/"><img src="img/logo-1.png" alt=""></a>
+								<div class="footer__logo-wrap">
+									<a href="https://vik-antonov.github.io/" class="footer__logo-link"><img src="img/logo-1.png" class="footer__logo" alt="Логотип"></a>
 								</div>
 							</div>
 						</div>
@@ -682,13 +683,14 @@
 
 
 		<script src="libs/jquery/jquery-3.2.1.min.js"></script>
-		<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<script src="libs/jquery.mmenu/jquery.mmenu.all.js"></script>
-		<script src="fonts/fontawesome-free-5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
+	
 		<script src="libs/WOW-master/dist/wow.min.js"></script>
 		<script src="libs/page-scroll-to-id-master/jquery.malihu.PageScroll2id.js"></script>
 
 		<script src="js/common.js"></script>
+
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 	</body>
 	</html>
