@@ -51,10 +51,18 @@ $(document).ready(function() {
 	$('.mc_item').matchHeight();
 	$('.hi_item').matchHeight();
 
-	// $('.navbar-header .m-hamburger').toggleClass('is-active');
 
-	// $(".navbar-toggle").on("click", function () {
-	// 	$(this).toggleClass("active");
-	// });
 
+
+	function installBackground(){
+		var src = $('.header').find('.bg-img').attr('src');
+		console.log(src);
+		$('.header').css({
+			'background': 'url('+ src +') no-repeat',
+			'backgroundSize': 'cover',
+			'backgroundPosition': 'top center'
+		});
+		$('.header').find('.bg-img').remove();
+	};
+	installBackground();
 });

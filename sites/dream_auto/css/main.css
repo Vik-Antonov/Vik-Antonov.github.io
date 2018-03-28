@@ -99,16 +99,13 @@ section{
 }
 
 /*-------------HEADER-------------------*/
-header{
-	background-image: url(../img/top_bg.jpg);
+.header{
 	min-height: 643px;
-	background-repeat: repeat-x;
-	background-position: top center;
 	position: relative;
 	font-family: "BebasRegular";
 	background-color: #fff;
 }
-header:before{
+.header:before{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -118,7 +115,7 @@ header:before{
 	background-color: rgba(34, 41, 48, .6);
 	z-index: 0;
 }
-header a{
+.header a{
 	color: #fff;
 }
 .top_line{

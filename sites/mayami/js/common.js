@@ -205,5 +205,25 @@ $( "#slider" ).slider({
             }
         });
     }
+
+    function installBg(a){
+      var block = $(a);
+       console.log(top-block);
+      var src1 = block.find('.bg-img-1').attr('src');
+      console.log(src1);
+      var src2 = block.find('.bg-img-2').attr('src');
+
+      block.css({
+        'background' : 'url(' + src1 +') repeat center center, url(' + src2 +') no-repeat center center'
+      });
+
+      block.find('.bg-img-1').remove();
+      block.find('.bg-img-2').remove();
+    };
+
+    installBg('.top-block');
+    installBg('.paralax');
+    installBg('.paralax-bottom');
+    
 })
   

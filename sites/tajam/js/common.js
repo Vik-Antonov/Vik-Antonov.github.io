@@ -1,6 +1,5 @@
-$(document).ready(function() {
+$(function(){
 
-	
   $('.owl-carousel').owlCarousel({
   	dots: true,
   	items:1,
@@ -57,8 +56,15 @@ $(document).ready(function() {
 	$("a[href*='#people_say']").mPageScroll2id();
 	$("a[href*='#contacts']").mPageScroll2id();
 
+	function installBg(){
+		src = $('.img_wrap').find('.img_bg').attr('src');
+		$('.img_wrap').css({
+			'backgroundImage': 'url(' + src + ')'
+		});
+		$('.img_wrap').find('.img_bg').remove();
+	};
 
-	
+	installBg();
 
 });
 

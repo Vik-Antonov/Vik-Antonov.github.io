@@ -6,6 +6,9 @@ textarea,p{
     margin:0;
     padding:0;
 }
+body{
+	min-width: 320px;
+}
 ol,ul {
     list-style:none;
 }
@@ -40,6 +43,12 @@ h4,.h4{
 	color: #fff;
 	font-family: "HelveticaNeue", sans-serif;
 	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
 }
 
 
@@ -209,26 +218,47 @@ header{
 	right:5%;
 	width: 50px;
 }
-
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-item{
+	width: 25%;
+}
 
 /*--------------------Products---------------------------*/
 .goods{
 	padding: 40px 0;
 	position: relative;
 }
+.flex-item:nth-child(1) .good_item{
+	background-color: #e4ce9a;
+}
+.flex-item:nth-child(2) .good_item{
+	background-color: #58dbd3;
+}
+.flex-item:nth-child(3) .good_item{
+	background-color: #ffa7ce;
+}
+.flex-item:nth-child(4) .good_item{
+	background-color: #f2ca66;
+}
 .good_item{
+	width: 260px;
+	margin: 0 auto;
 	position: relative;
 	padding: 25px;
 	overflow: hidden;
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
+	height: 300px;
 }
 .good_item:hover{
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	transform: scale(1.05);
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	transform: scale(1.02);
 }
 .good_item .h2{
 	margin-bottom: 25px;
@@ -475,7 +505,7 @@ header{
 .sale_bottom{
 	margin-top: 70px;
 }
-.product_wrap{
+/*.product_wrap{
 	display: block;
 	width: 20%;
 	float: left;
@@ -489,13 +519,21 @@ header{
 }
 .product:hover{
 	text-decoration: none;
+}*/
+.product-item{
+	display: block;
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	text-decoration: none;
 }
-.product_img{
-	border:1px solid #cacaca;
-	padding-bottom: 95%;
-	overflow: hidden;
-	position: relative;
-	transition: all .4s ease-out;
+.products .img-wrap{
+	border: 1px solid #cacaca;
+	text-align: center;
+}
+.products .flex-item{
+	width: 20%;
 }
 .product_img img{
 	position: absolute;
@@ -525,7 +563,7 @@ header{
 
 
 /*--------------------------FOOTER--------------------------*/
-footer{
+.footer{
 	background-color: #1b2330;
 	position: relative;
 	padding: 25px 0;

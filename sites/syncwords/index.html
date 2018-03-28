@@ -107,6 +107,7 @@
 <article class="main-article">
 	<div class="bg-block"></div>
 	<section class="sTop">
+		<img src="img/sTop-bg.png" class="bg-img" alt="sTop-bg">
 		<div class="bg-text sTop__bg-text">It's simple</div>
 		<div class="container">
 			<div class="sTop__inner">
@@ -148,7 +149,8 @@
 
 	<section class="sCaption">
 		<div class="container">
-			<div class="sCaption-top" style="background-image: url(img/sCaption-foto.jpg);">
+			<div class="sCaption-top">
+				<img src="img/sCaption-foto.jpg" class="bg-img" alt="sCaption-foto">
 				<div class="flex justify caption-flex">
 					<div class="sCaption-item">
 						<div class="sCaption-item__head">
@@ -211,6 +213,7 @@
 	</section>
 
 	<section class="sMotivation">
+		<img src="img/sMotivation-bg.png" class="bg-img" alt="sMotivation-bg">
 		<div class="bg-text sMotivation__bg-text">Yes it is</div>
 		<div class="container">
 			<div class="sMotivation__line-wrap">
@@ -347,6 +350,7 @@
 </article>
 
 <footer class="footer">
+	<img src="img/sMotivation-bg.png" class="bg-img" alt="footer-bg">
 	<div class="bg-block"></div>
 	<div class="bg-text footer__bg-text">Free</div>
 	<div class="container">
@@ -652,7 +656,16 @@
 		<path d="M351.475,313.868l-80.405-65.151V139.059c0-8.286-6.716-15.003-15.003-15.003c-8.286,0-15.003,6.717-15.003,15.003V256
 			c0.001,5.297,2.754,9.943,6.898,12.613l84.622,68.569c2.779,2.251,6.118,3.347,9.437,3.347c4.369,0,8.701-1.899,11.665-5.558
 			C358.903,328.532,357.913,319.085,351.475,313.868z"/>
-
+		</symbol>
+		<symbol id="btn-up" viewBox="0 0 54 54">
+			<path d="M53,27L53,27c0,14.359-11.641,26-26,26h0C12.641,53,1,41.359,1,27v0C1,12.641,12.641,1,27,1h0
+			C41.359,1,53,12.641,53,27z"/>
+		<path d="M27,54C12.112,54,0,41.888,0,27S12.112,0,27,0s27,12.112,27,27S41.888,54,27,54z M27,2
+			C13.215,2,2,13.215,2,27s11.215,25,25,25s25-11.215,25-25S40.785,2,27,2z"/>
+		</g>
+		<path style="fill:#FFFFFF;" d="M39,32.706c-0.256,0-0.512-0.098-0.707-0.293L27,21.12L15.707,32.413
+		c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414l11.498-11.498c0.666-0.666,1.752-0.666,2.418,0l11.498,11.498
+		c0.391,0.391,0.391,1.023,0,1.414C39.512,32.608,39.256,32.706,39,32.706z"/>
 		</symbol>
 	</svg>
 </div>
@@ -661,7 +674,7 @@
 	<div class="popup__overlay">
 		<div>
 			<form action="#" class="popup__form">
-				<span class="popup__close" id="close">X</span>
+				<span class="popup__close" id="close">&#9746;</span>
 				<h4 class="h4 popup__h4">We will call back you!</h4>
 				<div class="popup__item">
 					<label for="#popup__name" class="popup__label">Name</label>
@@ -682,6 +695,14 @@
 		</div>
 	</div>
 </div>
+
+
+	<a href="#" class="btn-up" id="btn-up">
+		<svg class="btn-up__icon">
+			<use xlink:href="#btn-up"></use>
+		</svg>
+	</a>
+
 
 </body>
 

@@ -5,9 +5,6 @@
 	h2, .h2{
 		font-size: 44px;	
 	}
-	h3, .h3{
-		font-size: 28px;
-	}
 	.navbar-default .navbar-nav{
 		margin-left: 10%;
 	}
@@ -17,6 +14,11 @@
 	.sale_main_img img{
 		margin-top: 60px;
 	}
+	.flex-item{
+		width: 50%;
+		margin-bottom: 40px;
+	}
+	
 }
 
 
@@ -29,28 +31,9 @@
 	h2, .h2{
 		font-size: 32px;
 	}
-	h3, .h3{
-		font-size: 20px;
-	}
+
 	.navbar-default .navbar-nav{
 		margin-left: 4%;
-	}
-	.item_1_img{
-		right: -40px;
-	}
-	.item_2_img,
-	.item_3_img{
-		right: -32%;
-	}
-	.good_item .price{
-		left:10px;
-		font-size: 36px;
-	}
-	.good_item .transform{
-		font-size: 60px;
-	}
-	.good_item .off{
-		font-size: 50px;
 	}
 	.shopping{
 		max-height: 420px;
@@ -81,6 +64,10 @@
 		width: 320px;
 		top: -14PX;
 	}
+	.products .flex-item{
+		width: 50%;
+	}
+
 }
 
 
@@ -92,9 +79,6 @@
 	}
 	h1, .h1{
 		font-size: 68px;
-	}
-	.good_item{
-		margin-bottom: 20px;
 	}
 	.sale_description{
 		width: 100%;
@@ -118,6 +102,18 @@
 	.sale_top{
 		width: 300px;
 		top: -13PX;
+	}
+	.flex-item{
+		width: 100%;
+	}
+	.products .flex-item{
+		width: 100%;
+	}
+	.navbar-default .navbar-nav{
+		margin-left: 0;
+	}
+	.navbar-nav{
+		margin: 0;
 	}
 
 }
